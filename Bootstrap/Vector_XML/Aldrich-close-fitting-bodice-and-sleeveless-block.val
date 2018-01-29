@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <version>0.6.0</version>
+    <unit>cm</unit>
+    <description>Close fitting bodice block from page 62 of Winifred Aldrich's Metric Pattern Cutting for Women's Wear, with 'close fitting sleeveless block' variation from page 76.
+
+An incremement 'isCloseFittingSleevelessBlock'  (set to 0 or 1) controls whether this is the sleeveless block or not. 
+
+Close waist shaping darts (pg.77) are also included (points labelled C and coloured MediumSeaGreen).
+
+Waist darts extended to hip as for dress variation from pg. 79</description>
+    <notes>Some measurements use literals that are to be adjusted for different sizes.  This is based on the size 12 example from the book. 
+The bezier curve control points for the armscye are a guess, chosen to go through the points specified in the book.  </notes>
+    <patternName/>
+    <patternNumber/>
+    <company>Winifred Aldrich</company>
+    <patternLabel dateFormat="MM-dd-yyyy" timeFormat="hh:mm:ss">
+        <line alignment="0" bold="true" italic="false" sfIncrement="4" text="sandpit"/>
+        <line alignment="0" bold="false" italic="true" sfIncrement="0" text="%date%"/>
+    </patternLabel>
+    <measurements>Size 12 Aldrich Aldrich close fitting bodice and sleeveless block rev3.vit</measurements>
+    <increments>
+        <increment description="0 - close fitting bodice block - pg62
+1 - close fitting sleeveless block - pg76
+2 - form fitting - zero or negative ease." formula="1" name="#isCloseFittingSleevelessBlock"/>
+        <increment description="0 - no close waist shaping
+1 - use close waist shaping as per page 77." formula="1" name="#isCloseWaistShaping"/>
+        <increment description="1%" formula="0.01" name="#NegativeBustEase"/>
+        <increment description="5%" formula="0.01" name="#NegativeWaistEase"/>
+        <increment description="5%
+for lync" formula="0.01" name="#NegativeHipEase"/>
+        <increment description="Close fitting bodice block - 5cm
+Close fitting sleeveless block - 2cm
+Lingerie and body fitting dress block - 2cm
+Note: as this is for half body, the full bust ease is twice this value." formula="#isCloseFittingSleevelessBlock == 0 ?  5 : ( #isCloseFittingSleevelessBlock == 1 ? 2 : ( - bust_circ / 2 * #NegativeBustEase) )" name="#BustEase"/>
+        <increment description="Lingerie and body fitting dress block - 1cm
+Note: as this is for half body, the full waist ease is twice this value." formula="#isCloseWaistShaping? #isCloseFittingSleevelessBlock == 2 ?  ( - waist_circ / 2 * #NegativeWaistEase)  : 3 : 0" name="#WaistEase"/>
+        <increment description="Note: as this is for half body, the full hip ease is twice this value." formula="#isCloseFittingSleevelessBlock == 0 ?  2 : #isCloseFittingSleevelessBlock == 1 ? 0 : ( - hip_circ / 2 * #NegativeHipEase)" name="#HipEase"/>
+        <increment description="Adjustments from page 76.
+Close fitting block - 0cm
+Close fitting sleeveless block - 1cm
+" formula="#isCloseFittingSleevelessBlock == 0 ?  0 : 1" name="#SleevelessBlock"/>
+        <increment description="" formula="1" name="#RearShoulderDartWidth"/>
+        <increment description="" formula="#isCloseFittingSleevelessBlock == 2 ? 0 : 0.5" name="#AcrossBackEase"/>
+        <increment description="" formula="7" name="#FrontShoulderDart"/>
+        <increment description="0.5 for each size up above 14. 
+i.e. size 16 - 0.5cm; size 18 - 1cm; size 20 - 1.5cm" formula="0" name="#Size14PlusTweak"/>
+        <increment description="44 + 2 - 34 - 3
+46 - 37 = 9" formula="(bust_circ/2) + #BustEase - (waist_circ/2) - #WaistEase" name="#BustWaistDifference"/>
+        <increment description="The example suggests 3.5cm for a 12cm bust to waist reduction. Therefore 3.5/12 * bust-waist" formula="#isCloseWaistShaping ? 3.5 / 12 * #BustWaistDifference : 0" name="#RearWaistDart"/>
+        <increment description="The example suggests 4.5cm for a 12cm bust to waist reduction. Therefore 4.5/12 * bust-waist" formula="#isCloseWaistShaping ? 4.5 / 12 * #BustWaistDifference : 0 " name="#FrontWaistDart"/>
+        <increment description="" formula="#isCloseWaistShaping ? 2.5 / 12 * #BustWaistDifference : 0" name="#SideWaistDartFront"/>
+        <increment description="" formula="#isCloseWaistShaping ? 1.5 / 12 * #BustWaistDifference : 0" name="#SideWaistDartRear"/>
+    </increments>
+    <draw name="Close fitting bodice block">
+        <calculation>
+            <point id="1" mx="-2.49164" my="-1.07465" name="A0" type="single" x="0" y="0"/>
+            <point angle="270" basePoint="1" id="2" length="neck_back_to_waist_b" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A5" type="endLine" typeLine="dashDotDotLine"/>
+            <point angle="270" basePoint="2" id="3" length="waist_to_hip_b" lineColor="black" mx="0.132292" my="0.264583" name="A7" type="endLine" typeLine="hair"/>
+            <point firstPoint="1" id="4" length="1.5" lineColor="black" mx="-2.10455" my="-0.481033" name="A1" secondPoint="2" type="alongLine" typeLine="none"/>
+            <point firstPoint="4" id="5" length="armscye_length + 0.5 - #SleevelessBlock" lineColor="black" mx="0.132292" my="0.264583" name="A2" secondPoint="2" type="alongLine" typeLine="none"/>
+            <point angle="0" firstPoint="5" id="6" length="bust_circ / 2 + #BustEase" lineColor="black" mx="0.0559694" my="0.264583" name="A3" secondPoint="2" type="normal" typeLine="dashLine"/>
+            <point firstPoint="5" id="142" length="#SleevelessBlock" lineColor="black" mx="0.52898" my="-1.75853" name="A2a" secondPoint="1" type="alongLine" typeLine="none"/>
+            <point firstPoint="6" id="143" mx="0.420793" my="-1.21398" name="A3b" secondPoint="142" type="pointOfIntersection"/>
+            <line firstPoint="142" id="144" lineColor="cornflowerblue" secondPoint="143" typeLine="dotLine"/>
+            <point angle="0" basePoint="1" id="7" length="neck_circ / 5 - 0.2" lineColor="cornflowerblue" mx="-0.090606" my="-2.26159" name="A9" type="endLine" typeLine="dotLine"/>
+            <point angle="0" firstPoint="6" id="8" length="Line_A2_A5" lineColor="black" mx="0.132292" my="0.264583" name="A6" secondPoint="5" type="normal" typeLine="hair"/>
+            <point angle="270" basePoint="8" id="9" length="Line_A5_A7" lineColor="black" mx="0.132292" my="0.264583" name="A8" type="endLine" typeLine="hair"/>
+            <line firstPoint="3" id="10" lineColor="black" secondPoint="9" typeLine="hair"/>
+            <point angle="90" basePoint="6" id="11" length="Line_A0_A1 + Line_A1_A2 + #Size14PlusTweak" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A4" type="endLine" typeLine="dashDotDotLine"/>
+            <line firstPoint="2" id="12" lineColor="black" secondPoint="8" typeLine="hair"/>
+            <point angle="0" basePoint="4" id="13" length="2" lineColor="cornflowerblue" mx="0.132292" my="0.05155" name="A2r" type="endLine" typeLine="dotLine"/>
+            <point firstPoint="4" id="14" length="armscye_length /5 - 0.7" lineColor="black" mx="0.132292" my="0.264583" name="A10" secondPoint="5" type="alongLine" typeLine="none"/>
+            <point angle="0" basePoint="14" id="52" length="5" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A11b" type="endLine" typeLine="none"/>
+            <point id="53" length="shoulder_length + 1 - #SleevelessBlock" lineColor="cornflowerblue" mx="0.495364" my="-0.532759" name="A11" p1Line="14" p2Line="52" pShoulder="7" type="shoulder" typeLine="dotLine"/>
+            <line firstPoint="1" id="16" lineColor="black" secondPoint="14" typeLine="hair"/>
+            <line firstPoint="7" id="17" lineColor="cornflowerblue" secondPoint="53" typeLine="dotLine"/>
+            <point firstPoint="7" id="18" length="CurrentLength/2" lineColor="black" mx="0.304166" my="-2.74321" name="A12" secondPoint="53" type="alongLine" typeLine="none"/>
+            <point angle="270" basePoint="18" id="19" length="sqrt( 5^2 - 1^2 )" lineColor="cornflowerblue" mx="-0.15482" my="0.210242" name="A13a" type="endLine" typeLine="dotLine"/>
+            <point angle="180" basePoint="19" id="20" length="1" lineColor="cornflowerblue" mx="-1.86643" my="0.207292" name="A13" type="endLine" typeLine="dotLine"/>
+            <line firstPoint="18" id="21" lineColor="cornflowerblue" secondPoint="20" typeLine="dotLine"/>
+            <point firstPoint="18" id="22" length="#RearShoulderDartWidth / 2" lineColor="black" mx="1.29589" my="-0.908712" name="A12b" secondPoint="53" type="alongLine" typeLine="none"/>
+            <point firstPoint="18" id="23" length="#RearShoulderDartWidth / 2" lineColor="black" mx="-1.51143" my="-2.01665" name="A12a" secondPoint="7" type="alongLine" typeLine="none"/>
+            <line firstPoint="20" id="24" lineColor="black" secondPoint="22" typeLine="dotLine"/>
+            <line firstPoint="20" id="25" lineColor="black" secondPoint="23" typeLine="hair"/>
+            <line firstPoint="7" id="26" lineColor="black" secondPoint="23" typeLine="hair"/>
+            <point firstPoint="142" id="28" length="across_back_b / 2 + #AcrossBackEase - #SleevelessBlock" lineColor="black" mx="-2.5701" my="-1.51897" name="A14s" secondPoint="143" type="alongLine" typeLine="none"/>
+            <point basePoint="28" id="145" lineColor="black" mx="-2.52949" my="0.744576" name="A14" p1Line="5" p2Line="6" type="height" typeLine="none"/>
+            <point basePoint="28" id="29" lineColor="cornflowerblue" mx="-1.68601" my="0.327208" name="A15" p1Line="14" p2Line="53" type="height" typeLine="dotLine"/>
+            <point firstPoint="28" id="30" length="CurrentLength/2" lineColor="black" mx="-2.51456" my="-0.523171" name="A16" secondPoint="29" type="alongLine" typeLine="none"/>
+            <point firstPoint="5" id="31" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="A17" secondPoint="145" type="alongLine" typeLine="none"/>
+            <point basePoint="31" id="32" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A18" p1Line="2" p2Line="8" type="height" typeLine="dashLine"/>
+            <point basePoint="32" id="33" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A19" p1Line="3" p2Line="9" type="height" typeLine="dashLine"/>
+            <point firstPoint="3" id="149" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="D1" secondPoint="9" type="alongLine" typeLine="none"/>
+            <point firstPoint="32" id="148" length="13" lineColor="black" mx="0.132292" my="0.264583" name="D3" secondPoint="33" type="alongLine" typeLine="none"/>
+            <point angle="180" basePoint="11" id="34" length="neck_circ / 5 - 0.7" lineColor="cornflowerblue" mx="-0.403381" my="-2.22052" name="A20" type="endLine" typeLine="dotLine"/>
+            <point firstPoint="11" id="35" length="neck_circ / 5 - 0.2" lineColor="black" mx="0.132292" my="0.264583" name="A21" secondPoint="6" type="alongLine" typeLine="none"/>
+            <point angle="180" basePoint="35" id="36" length="2.5" lineColor="cornflowerblue" mx="-1.71586" my="0.120487" name="A21r" type="endLine" typeLine="dotLine"/>
+            <point angle="270" basePoint="34" id="37" length="2.5" lineColor="cornflowerblue" mx="-4.0537" my="-0.882263" name="A20r" type="endLine" typeLine="dotLine"/>
+            <spline color="black" id="38" point1="35" point2="36" point3="37" point4="34" type="cubicBezier"/>
+            <point firstPoint="143" id="39" length="across_chest_f /2 + #FrontShoulderDart / 2 - #SleevelessBlock" lineColor="black" mx="0.655921" my="-1.34994" name="A22s" secondPoint="142" type="alongLine" typeLine="none"/>
+            <line firstPoint="35" id="40" lineColor="black" secondPoint="6" typeLine="hair"/>
+            <point angle="90" basePoint="39" id="41" length="(Line_A3_A4 - Line_A4_A21 ) /3" lineColor="cornflowerblue" mx="0.289843" my="-0.617702" name="A31" type="endLine" typeLine="dotLine"/>
+            <point basePoint="39" id="146" lineColor="black" mx="0.132292" my="0.264583" name="A22" p1Line="5" p2Line="6" type="height" typeLine="none"/>
+            <point firstPoint="6" id="42" length="CurrentLength/2" lineColor="black" mx="0.132292" my="0.264583" name="A23" secondPoint="146" type="alongLine" typeLine="none"/>
+            <point basePoint="42" id="43" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A24" p1Line="8" p2Line="2" type="height" typeLine="dashLine"/>
+            <point basePoint="43" id="44" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A25" p1Line="9" p2Line="3" type="height" typeLine="dashLine"/>
+            <point firstPoint="43" id="147" length="11" lineColor="black" mx="0.132292" my="0.264583" name="D2" secondPoint="44" type="alongLine" typeLine="none"/>
+            <point firstPoint="42" id="45" length="2.5" lineColor="black" mx="0.132292" my="0.264583" name="A26" secondPoint="43" type="alongLine" typeLine="none"/>
+            <line firstPoint="34" id="46" lineColor="black" secondPoint="45" typeLine="hair"/>
+            <point angle="180" basePoint="34" id="47" length="#FrontShoulderDart" lineColor="cornflowerblue" mx="-0.434891" my="-1.66659" name="A27" type="endLine" typeLine="dotLine"/>
+            <line firstPoint="45" id="48" lineColor="black" secondPoint="47" typeLine="hair"/>
+            <point angle="270" basePoint="53" id="49" length="1.5 + (0*Line_A10_A2 * 0.085)" lineColor="cornflowerblue" mx="0.208547" my="-0.574218" name="A28" type="endLine" typeLine="dotLine"/>
+            <point firstPoint="47" id="50" mx="-1.52187" my="0.169802" name="A29" secondPoint="49" type="pointOfIntersection"/>
+            <line firstPoint="47" id="51" lineColor="cornflowerblue" secondPoint="50" typeLine="dotLine"/>
+            <point angle="270" basePoint="7" id="54" length="1" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A9r" type="endLine" typeLine="dotLine"/>
+            <spline color="black" id="55" point1="4" point2="13" point3="54" point4="7" type="cubicBezier"/>
+            <point angle="180" basePoint="50" id="56" length="1" lineColor="cornflowerblue" mx="-2.46001" my="-1.79476" name="A29r" type="endLine" typeLine="dotLine"/>
+            <point id="57" length="shoulder_length - #SleevelessBlock" lineColor="cornflowerblue" mx="-0.318223" my="-3.79028" name="A30" p1Line="50" p2Line="56" pShoulder="47" type="shoulder" typeLine="dotLine"/>
+            <line firstPoint="47" id="58" lineColor="black" secondPoint="57" typeLine="hair"/>
+            <point firstPoint="28" id="59" length="CurrentLength/2" lineColor="black" mx="-2.04191" my="0.0440118" name="A32" secondPoint="39" type="alongLine" typeLine="none"/>
+            <point basePoint="59" id="60" lineColor="cornflowerblue" mx="0.132292" my="0.18826" name="A33" p1Line="8" p2Line="2" type="height" typeLine="dashLine"/>
+            <point basePoint="60" id="61" lineColor="cornflowerblue" mx="-1.42652" my="0.37652" name="A34" p1Line="9" p2Line="3" type="height" typeLine="dashLine"/>
+            <point angle="45" basePoint="28" id="62" length="0.3225 * armscye_length - 4.2855" lineColor="cornflowerblue" mx="0.0841796" my="-1.7229" name="A14b" type="endLine" typeLine="dotLine"/>
+            <point angle="135" basePoint="39" id="63" length="0.3225 * armscye_length - 4.7855" lineColor="cornflowerblue" mx="-2.60781" my="-2.0681" name="A22b" type="endLine" typeLine="dotLine"/>
+            <line firstPoint="57" id="125" lineColor="black" secondPoint="41" typeLine="dotLine"/>
+            <point angle="180" firstPoint="57" id="64" length="Line_A30_A31  * 0.333" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A30b" secondPoint="47" type="normal" typeLine="dotLine"/>
+            <point angle="0" firstPoint="53" id="65" length="Line_A10_A2 * 0.11" lineColor="cornflowerblue" mx="0.132292" my="0.264583" name="A36" secondPoint="7" type="normal" typeLine="dotLine"/>
+            <point firstPoint="59" id="66" length="CurrentLength * 0.66" lineColor="black" mx="-1.42935" my="1.58077" name="A32b" secondPoint="39" type="alongLine" typeLine="none"/>
+            <point firstPoint="30" id="67" length="CurrentLength * 0.25" lineColor="black" mx="-3.32532" my="0.275619" name="A16b" secondPoint="29" type="alongLine" typeLine="none"/>
+            <point firstPoint="30" id="68" length="CurrentLength * 0.63" lineColor="black" mx="-3.28215" my="-4.71213" name="A16c" secondPoint="28" type="alongLine" typeLine="none"/>
+            <point firstPoint="41" id="69" length="CurrentLength * 0.63" lineColor="black" mx="1.47811" my="-1.12086" name="A31b" secondPoint="39" type="alongLine" typeLine="none"/>
+            <line firstPoint="35" id="71" lineColor="black" secondPoint="6" typeLine="hair"/>
+            <line firstPoint="4" id="72" lineColor="black" secondPoint="2" typeLine="hair"/>
+            <point angle="90" basePoint="41" id="73" length="Line_A30_A31 * 0.25" lineColor="cornflowerblue" mx="-0.39458" my="-2.1098" name="A31C" type="endLine" typeLine="dotLine"/>
+            <point firstPoint="59" id="74" length="CurrentLength * 0.66" lineColor="black" mx="-0.477745" my="1.21777" name="A32c" secondPoint="28" type="alongLine" typeLine="none"/>
+            <spline color="black" duplicate="1" id="75" type="cubicBezierPath">
+                <pathPoint pSpline="53"/>
+                <pathPoint pSpline="65"/>
+                <pathPoint pSpline="67"/>
+                <pathPoint pSpline="30"/>
+                <pathPoint pSpline="68"/>
+                <pathPoint pSpline="74"/>
+                <pathPoint pSpline="59"/>
+                <pathPoint pSpline="66"/>
+                <pathPoint pSpline="69"/>
+                <pathPoint pSpline="41"/>
+                <pathPoint pSpline="73"/>
+                <pathPoint pSpline="64"/>
+                <pathPoint pSpline="57"/>
+            </spline>
+            <point firstPoint="32" id="76" length="#RearWaistDart / 2" lineColor="black" mx="0.292252" my="-1.6508" name="C2" secondPoint="60" type="alongLine" typeLine="none"/>
+            <point firstPoint="32" id="77" length="#RearWaistDart / 2" lineColor="black" mx="-1.69" my="-1.6372" name="C1" secondPoint="2" type="alongLine" typeLine="none"/>
+            <line firstPoint="31" id="78" lineColor="mediumseagreen" secondPoint="76" typeLine="hair"/>
+            <line firstPoint="31" id="79" lineColor="mediumseagreen" secondPoint="77" typeLine="hair"/>
+            <line firstPoint="76" id="80" lineColor="mediumseagreen" secondPoint="148" typeLine="hair"/>
+            <line firstPoint="77" id="81" lineColor="mediumseagreen" secondPoint="148" typeLine="hair"/>
+            <point firstPoint="43" id="82" length="#FrontWaistDart /  2" lineColor="black" mx="0.305847" my="-1.76162" name="C4" secondPoint="8" type="alongLine" typeLine="none"/>
+            <point firstPoint="43" id="83" length="#FrontWaistDart /  2" lineColor="black" mx="-1.66909" my="0.0565247" name="C3" secondPoint="60" type="alongLine" typeLine="none"/>
+            <line firstPoint="45" id="84" lineColor="mediumseagreen" secondPoint="82" typeLine="hair"/>
+            <line firstPoint="45" id="85" lineColor="mediumseagreen" secondPoint="83" typeLine="hair"/>
+            <line firstPoint="82" id="86" lineColor="mediumseagreen" secondPoint="147" typeLine="hair"/>
+            <line firstPoint="83" id="87" lineColor="mediumseagreen" secondPoint="147" typeLine="hair"/>
+            <point firstPoint="60" id="88" length="#SideWaistDartFront" lineColor="black" mx="0.292252" my="-1.6508" name="C5" secondPoint="83" type="alongLine" typeLine="none"/>
+            <point firstPoint="60" id="89" length="#SideWaistDartRear" lineColor="black" mx="-1.48925" my="0.153756" name="C6" secondPoint="2" type="alongLine" typeLine="none"/>
+            <line firstPoint="59" id="90" lineColor="mediumseagreen" secondPoint="88" typeLine="hair"/>
+            <line firstPoint="88" id="91" lineColor="mediumseagreen" secondPoint="149" typeLine="hair"/>
+            <line firstPoint="59" id="92" lineColor="mediumseagreen" secondPoint="89" typeLine="hair"/>
+            <line firstPoint="89" id="93" lineColor="mediumseagreen" secondPoint="149" typeLine="hair"/>
+            <point angle="180" basePoint="1" id="123" length="5" lineColor="black" mx="0.132292" my="0.264583" name="Z1" type="endLine" typeLine="none"/>
+            <point angle="270" basePoint="123" id="124" length="SplPath_A11_A30_1" lineColor="black" mx="0.132292" my="0.311556" name="SCYE" type="endLine" typeLine="hair"/>
+            <point firstPoint="20" id="135" length="Line_A13_A12a" lineColor="black" mx="2.10039" my="-2.72541" name="A12c" secondPoint="22" type="alongLine" typeLine="hair"/>
+            <line firstPoint="135" id="136" lineColor="black" secondPoint="53" typeLine="hair"/>
+            <point angle="0" firstPoint="62" id="138" length="1" lineColor="cornflowerblue" mx="0.887928" my="-1.34744" name="A14b1" secondPoint="28" type="normal" typeLine="dashLine"/>
+            <point angle="0" firstPoint="62" id="139" length="-1" lineColor="cornflowerblue" mx="-0.0692108" my="-2.55646" name="A14b2" secondPoint="28" type="normal" typeLine="dashLine"/>
+            <point angle="0" firstPoint="63" id="140" length="1" lineColor="cornflowerblue" mx="-2.03261" my="-1.85869" name="A41" secondPoint="39" type="normal" typeLine="dotLine"/>
+            <point angle="0" firstPoint="63" id="141" length="-1" lineColor="cornflowerblue" mx="-1.61629" my="-1.40073" name="A42" secondPoint="39" type="normal" typeLine="dotLine"/>
+        </calculation>
+        <modeling>
+            <point id="150" idObject="4" inUse="false" mx="-2.10455" my="-0.481033" type="modeling"/>
+            <spline id="151" idObject="55" inUse="false" type="modelingSpline"/>
+            <point id="152" idObject="7" inUse="false" mx="-0.090606" my="-2.26159" type="modeling"/>
+            <point id="153" idObject="23" inUse="false" mx="-1.51143" my="-2.01665" type="modeling"/>
+            <point id="154" idObject="20" inUse="false" mx="-1.86643" my="0.207292" type="modeling"/>
+            <point id="155" idObject="22" inUse="false" mx="1.29589" my="-0.908712" type="modeling"/>
+            <point id="156" idObject="53" inUse="false" mx="0.495364" my="-0.532759" type="modeling"/>
+            <spline id="157" idObject="75" inUse="false" type="modelingPath"/>
+            <point id="158" idObject="57" inUse="false" mx="-0.318223" my="-3.79028" type="modeling"/>
+            <point id="159" idObject="47" inUse="false" mx="-0.434891" my="-1.66659" type="modeling"/>
+            <point id="160" idObject="45" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="161" idObject="34" inUse="false" mx="-0.403381" my="-2.22052" type="modeling"/>
+            <spline id="162" idObject="38" inUse="false" type="modelingSpline"/>
+            <point id="163" idObject="35" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="164" idObject="9" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="165" idObject="3" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="167" idObject="4" inUse="true" mx="-2.10455" my="-0.481033" type="modeling"/>
+            <spline id="168" idObject="55" inUse="true" type="modelingSpline"/>
+            <point id="169" idObject="7" inUse="true" mx="-0.090606" my="-2.26159" type="modeling"/>
+            <point id="170" idObject="23" inUse="true" mx="-1.51143" my="-2.01665" type="modeling"/>
+            <point id="171" idObject="20" inUse="true" mx="-1.86643" my="0.207292" type="modeling"/>
+            <point id="172" idObject="22" inUse="true" mx="1.29589" my="-0.908712" type="modeling"/>
+            <point id="173" idObject="53" inUse="true" mx="0.495364" my="-0.532759" type="modeling"/>
+            <spline id="174" idObject="75" inUse="true" type="modelingPath"/>
+            <point id="175" idObject="59" inUse="true" mx="-2.04191" my="0.0440118" type="modeling"/>
+            <point id="176" idObject="89" inUse="true" mx="-1.48925" my="0.153756" type="modeling"/>
+            <point id="177" idObject="149" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="178" idObject="3" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="180" idObject="35" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="181" idObject="9" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="182" idObject="149" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="183" idObject="88" inUse="true" mx="0.292252" my="-1.6508" type="modeling"/>
+            <point id="184" idObject="59" inUse="true" mx="-2.04191" my="0.0440118" type="modeling"/>
+            <spline id="185" idObject="75" inUse="true" type="modelingPath"/>
+            <point id="186" idObject="57" inUse="true" mx="-0.318223" my="-3.79028" type="modeling"/>
+            <point id="187" idObject="47" inUse="true" mx="-0.434891" my="-1.66659" type="modeling"/>
+            <point id="188" idObject="45" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="189" idObject="34" inUse="true" mx="-0.403381" my="-2.22052" type="modeling"/>
+            <spline id="190" idObject="38" inUse="true" type="modelingSpline"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="true" hideMainPath="false" id="179" inLayout="true" mx="0" my="0" name="Detail" seamAllowance="false" united="false" version="2" width="0.25">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="167" type="NodePoint"/>
+                    <node idObject="168" reverse="0" type="NodeSpline"/>
+                    <node idObject="169" type="NodePoint"/>
+                    <node idObject="170" type="NodePoint"/>
+                    <node idObject="171" type="NodePoint"/>
+                    <node idObject="172" type="NodePoint"/>
+                    <node idObject="173" type="NodePoint"/>
+                    <node idObject="174" reverse="0" type="NodeSplinePath"/>
+                    <node idObject="175" type="NodePoint"/>
+                    <node idObject="176" type="NodePoint"/>
+                    <node idObject="177" type="NodePoint"/>
+                    <node idObject="178" type="NodePoint"/>
+                </nodes>
+            </detail>
+            <detail forbidFlipping="true" hideMainPath="false" id="191" inLayout="true" mx="0" my="0" name="Detail" seamAllowance="false" united="false" version="2" width="0.25">
+                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="180" type="NodePoint"/>
+                    <node idObject="181" type="NodePoint"/>
+                    <node idObject="182" type="NodePoint"/>
+                    <node idObject="183" type="NodePoint"/>
+                    <node idObject="184" type="NodePoint"/>
+                    <node idObject="185" reverse="0" type="NodeSplinePath"/>
+                    <node idObject="186" type="NodePoint"/>
+                    <node idObject="187" type="NodePoint"/>
+                    <node idObject="188" type="NodePoint"/>
+                    <node idObject="189" type="NodePoint"/>
+                    <node idObject="190" reverse="1" type="NodeSpline"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>
