@@ -14,7 +14,8 @@ A few tips:
 
 	3) If running on jupyter notebooks keep an eye on the remaining GPU time. The email warnings seem to be on a delay which can cause the GPU to expire and the kernel to disconnect, forcing a re-run of the job entirely (unless you spawn the model from previously saved weights)
 
-	4) To upload multiple files into a jupyter notebook, but them in a folder and then compress into a zip file and upload the zip file. From there, create a new notebook and run the following code: import zipfile as zf
+	4) To upload multiple files into a jupyter notebook, but them in a folder and then compress into a zip file and upload the zip file. From there, create a new notebook and run the following code: 
+				import zipfile as zf
 				files = zf.ZipFile("ZippedFolder.zip", 'r')
 				files.extractall('directory to extract')
 				files.close()
