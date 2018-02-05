@@ -1,1 +1,0 @@
-/ < > pattern description pathPoint my mx point calculation basePoint length <START> angle type <END> spline
