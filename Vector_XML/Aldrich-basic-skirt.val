@@ -3,12 +3,7 @@
     <version>0.5.0</version>
     <unit>cm</unit>
     <author>Winifred Aldrich</author>
-    <description>Basic skirt block (natural waist)
-
-Winifred Aldrich's Metric Pattern Cutting for Women's Wear.
-6th Edition.  Page 24. 
-
-</description>
+    <description>Basic skirt block (natural waist)Winifred Aldrich's Metric Pattern Cutting for Women's Wear.6th Edition.  Page 24. </description>
     <notes>Dart lengths and widths have been formularised.  See comments on increments. </notes>
     <showDate>true</showDate>
     <measurements>Size 12 Aldrich Aldrich basic skirt block rev1.vit</measurements>
@@ -17,11 +12,8 @@ Winifred Aldrich's Metric Pattern Cutting for Women's Wear.
         <increment description="The book specifies 12cm, and is using a waist-to-hip of 20.6.  This formula assumes that the dart length should be proportional to the waist_to_hip distance." formula="( 12 / 20.6 ) * waist_to_hip_b" name="#FrontDartLength"/>
         <increment description="The book specifies 13cm and 14cm darts using an example of waist-to-hip 20.6cm.  This formula assumes that the dart length should be proportional to the waist_to_hip distance." formula="( 13.5 / 20.6 ) * waist_to_hip_b" name="#RearDartLength"/>
         <increment description="The total ease around the hips is therefore 3cm. " formula="1.5" name="#HipEase"/>
-        <increment description="The book specifies a 2.5cm dart.
-Based on a hip-waist difference of 97 (94+3 ease) - 68 = 29cm" formula="(2.5/(97-68)) * ( (hip_circ+(2*#HipEase)) - waist_circ )" name="#FrontDartWidth"/>
-        <increment description="The book specifies a 2.5cm dart.
-Based on a hip-waist difference of 97 (incl ease) - 68 = 29cm
-" formula="(2/(97-68)) * ( (hip_circ+(2*#HipEase)) - waist_circ )" name="#WaistRearDartWidth"/>
+        <increment description="The book specifies a 2.5cm dart.Based on a hip-waist difference of 97 (94+3 ease) - 68 = 29cm" formula="(2.5/(97-68)) * ( (hip_circ+(2*#HipEase)) - waist_circ )" name="#FrontDartWidth"/>
+        <increment description="The book specifies a 2.5cm dart.Based on a hip-waist difference of 97 (incl ease) - 68 = 29cm" formula="(2/(97-68)) * ( (hip_circ+(2*#HipEase)) - waist_circ )" name="#WaistRearDartWidth"/>
     </increments>
     <draw name="skirt block - natural waist">
         <calculation>

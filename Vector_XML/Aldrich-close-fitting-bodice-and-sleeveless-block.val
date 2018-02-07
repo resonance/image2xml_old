@@ -2,15 +2,8 @@
 <pattern>
     <version>0.6.0</version>
     <unit>cm</unit>
-    <description>Close fitting bodice block from page 62 of Winifred Aldrich's Metric Pattern Cutting for Women's Wear, with 'close fitting sleeveless block' variation from page 76.
-
-An incremement 'isCloseFittingSleevelessBlock'  (set to 0 or 1) controls whether this is the sleeveless block or not. 
-
-Close waist shaping darts (pg.77) are also included (points labelled C and coloured MediumSeaGreen).
-
-Waist darts extended to hip as for dress variation from pg. 79</description>
-    <notes>Some measurements use literals that are to be adjusted for different sizes.  This is based on the size 12 example from the book. 
-The bezier curve control points for the armscye are a guess, chosen to go through the points specified in the book.  </notes>
+    <description>Close fitting bodice block from page 62 of Winifred Aldrich's Metric Pattern Cutting for Women's Wear, with 'close fitting sleeveless block' variation from page 76. incremement 'isCloseFittingSleevelessBlock'  (set to 0 or 1) controls whether this is the sleeveless block or not. Close waist shaping darts (pg.77) are also included (points labelled C and coloured MediumSeaGreen). Waist darts extended to hip as for dress variation from pg. 79</description>
+    <notes>Some measurements use literals that are to be adjusted for different sizes.  This is based on the size 12 example from the book. The bezier curve control points for the armscye are a guess, chosen to go through the points specified in the book.  </notes>
     <patternName/>
     <patternNumber/>
     <company>Winifred Aldrich</company>
@@ -20,33 +13,20 @@ The bezier curve control points for the armscye are a guess, chosen to go throug
     </patternLabel>
     <measurements>Size 12 Aldrich Aldrich close fitting bodice and sleeveless block rev3.vit</measurements>
     <increments>
-        <increment description="0 - close fitting bodice block - pg62
-1 - close fitting sleeveless block - pg76
-2 - form fitting - zero or negative ease." formula="1" name="#isCloseFittingSleevelessBlock"/>
-        <increment description="0 - no close waist shaping
-1 - use close waist shaping as per page 77." formula="1" name="#isCloseWaistShaping"/>
+        <increment description="0 - close fitting bodice block - pg621 - close fitting sleeveless block - pg762 - form fitting - zero or negative ease." formula="1" name="#isCloseFittingSleevelessBlock"/>
+        <increment description="0 - no close waist shaping1 - use close waist shaping as per page 77." formula="1" name="#isCloseWaistShaping"/>
         <increment description="1%" formula="0.01" name="#NegativeBustEase"/>
         <increment description="5%" formula="0.01" name="#NegativeWaistEase"/>
-        <increment description="5%
-for lync" formula="0.01" name="#NegativeHipEase"/>
-        <increment description="Close fitting bodice block - 5cm
-Close fitting sleeveless block - 2cm
-Lingerie and body fitting dress block - 2cm
-Note: as this is for half body, the full bust ease is twice this value." formula="#isCloseFittingSleevelessBlock == 0 ?  5 : ( #isCloseFittingSleevelessBlock == 1 ? 2 : ( - bust_circ / 2 * #NegativeBustEase) )" name="#BustEase"/>
-        <increment description="Lingerie and body fitting dress block - 1cm
-Note: as this is for half body, the full waist ease is twice this value." formula="#isCloseWaistShaping? #isCloseFittingSleevelessBlock == 2 ?  ( - waist_circ / 2 * #NegativeWaistEase)  : 3 : 0" name="#WaistEase"/>
+        <increment description="5%for lync" formula="0.01" name="#NegativeHipEase"/>
+        <increment description="Close fitting bodice block - 5cmClose fitting sleeveless block - 2cmLingerie and body fitting dress block - 2cmNote: as this is for half body, the full bust ease is twice this value." formula="#isCloseFittingSleevelessBlock == 0 ?  5 : ( #isCloseFittingSleevelessBlock == 1 ? 2 : ( - bust_circ / 2 * #NegativeBustEase) )" name="#BustEase"/>
+        <increment description="Lingerie and body fitting dress block - 1cmNote: as this is for half body, the full waist ease is twice this value." formula="#isCloseWaistShaping? #isCloseFittingSleevelessBlock == 2 ?  ( - waist_circ / 2 * #NegativeWaistEase)  : 3 : 0" name="#WaistEase"/>
         <increment description="Note: as this is for half body, the full hip ease is twice this value." formula="#isCloseFittingSleevelessBlock == 0 ?  2 : #isCloseFittingSleevelessBlock == 1 ? 0 : ( - hip_circ / 2 * #NegativeHipEase)" name="#HipEase"/>
-        <increment description="Adjustments from page 76.
-Close fitting block - 0cm
-Close fitting sleeveless block - 1cm
-" formula="#isCloseFittingSleevelessBlock == 0 ?  0 : 1" name="#SleevelessBlock"/>
+        <increment description="Adjustments from page 76.Close fitting block - 0cmClose fitting sleeveless block - 1cm" formula="#isCloseFittingSleevelessBlock == 0 ?  0 : 1" name="#SleevelessBlock"/>
         <increment description="" formula="1" name="#RearShoulderDartWidth"/>
         <increment description="" formula="#isCloseFittingSleevelessBlock == 2 ? 0 : 0.5" name="#AcrossBackEase"/>
         <increment description="" formula="7" name="#FrontShoulderDart"/>
-        <increment description="0.5 for each size up above 14. 
-i.e. size 16 - 0.5cm; size 18 - 1cm; size 20 - 1.5cm" formula="0" name="#Size14PlusTweak"/>
-        <increment description="44 + 2 - 34 - 3
-46 - 37 = 9" formula="(bust_circ/2) + #BustEase - (waist_circ/2) - #WaistEase" name="#BustWaistDifference"/>
+        <increment description="0.5 for each size up above 14. i.e. size 16 - 0.5cm; size 18 - 1cm; size 20 - 1.5cm" formula="0" name="#Size14PlusTweak"/>
+        <increment description="44 + 2 - 34 - 346 - 37 = 9" formula="(bust_circ/2) + #BustEase - (waist_circ/2) - #WaistEase" name="#BustWaistDifference"/>
         <increment description="The example suggests 3.5cm for a 12cm bust to waist reduction. Therefore 3.5/12 * bust-waist" formula="#isCloseWaistShaping ? 3.5 / 12 * #BustWaistDifference : 0" name="#RearWaistDart"/>
         <increment description="The example suggests 4.5cm for a 12cm bust to waist reduction. Therefore 4.5/12 * bust-waist" formula="#isCloseWaistShaping ? 4.5 / 12 * #BustWaistDifference : 0 " name="#FrontWaistDart"/>
         <increment description="" formula="#isCloseWaistShaping ? 2.5 / 12 * #BustWaistDifference : 0" name="#SideWaistDartFront"/>
