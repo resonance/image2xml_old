@@ -1,4 +1,4 @@
-, { } <END> <START> point line spline calculation draw pattern increments increment version patternName unit author description notes measurements modeling details data patternInfo grainLine nodes node splineBlock pathPoint pins record heights sizes gradation lineAlignment patternLabel operation source destination item groups group item2 path
+, { } <END> <START> point line spline calculation draw pattern increments increment version patternName unit author description notes measurements modeling details data patternInfo grainLine nodes node splineBlock pathPoint pins record heights sizes gradation lineAlignment patternLabel operation source destination item groups group path
 
 
  
