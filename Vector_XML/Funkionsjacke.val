@@ -5,7 +5,7 @@
     <description>Funktionspulli</description>
     <patternName>Funktionsjacke</patternName>
     <company>Buggi</company>
-    <measurements>Matthias Burkhardt Funktionsjacke rev1.vit</measurements>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Funktionsjacke.vit</measurements>
     <draw name="Grundschnitt">
         <calculation>
             <point id="1" mx="0.132292" my="0.264583" name="A" type="single" x="0.79375" y="1.05833"/>

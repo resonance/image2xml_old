@@ -6,7 +6,7 @@
     <description>Basic skirt block (production skirt block low waist) Winifred Aldrich's Metric Pattern Cutting for Women's Wear. 6th Edition.  Page 25. </description>
     <notes>Dart lengths and widths have been formularised.  See comments on increments.</notes>
     <showDate>true</showDate>
-    <measurements>Size 12 Aldrich Aldrich basic skirt block low waist rev1.vit</measurements>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Aldrich basic skirt low waist.vit</measurements>
     <increments>
         <increment description="" formula="50" name="#SkirtLength"/>
         <increment description="Assuming that this is half way between natural waist and high hip. " formula="( highhip_circ + waist_circ ) / 2" name="#LowWaistCirc"/>

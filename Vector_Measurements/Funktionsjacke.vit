@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name>Burkhardt</family-name>
+        <given-name>Matthias</given-name>
+        <birth-date>1969-06-27</birth-date>
+        <gender>male</gender>
+        <email>bugbuggi@gmail.com</email>
+    </personal>
+    <body-measurements>
+        <m name="height_waist_side" value="125"/>
+        <m name="height_knee" value="60"/>
+        <m name="height_waist_side_to_hip" value="21"/>
+        <m name="bust_circ" value="95"/>
+        <m name="waist_circ" value="88"/>
+        <m name="hip_circ" value="102"/>
+        <m name="neck_side_to_waist_f" value="55"/>
+        <m name="neck_back_to_waist_b" value="52"/>
+        <m name="neck_back_to_highbust_b" value="24.8"/>
+        <m name="shoulder_length" value="12.5"/>
+        <m name="armfold_to_armfold_b" value="19.8"/>
+        <m name="neck_width" value="7.7"/>
+        <m name="arm_shoulder_tip_to_wrist" value="75"/>
+        <m name="arm_above_elbow_circ" value="30"/>
+        <m name="arm_lower_circ" value="28"/>
+        <m name="arm_wrist_circ" value="18"/>
+        <m name="armscye_width" value="15"/>
+        <m name="leg_crotch_to_floor" value="96"/>
+        <m name="leg_knee_circ" value="40"/>
+        <m name="leg_ankle_circ" value="29"/>
+        <m name="rise_length_side_sitting" value="26"/>
+        <m name="@Höhe_Schrittlinie_zur_Hüftlinie" value="8.6" full_name="Höhe Schrittlinie zur Hüftlinie"/>
+        <m name="@Kapuzenlänge" value="47" full_name="Kapuzenlänge"/>
+        <m name="@Kapuze_Gesichtsumfang" value="63" full_name="Kapuze Gesichtsumfang"/>
+    </body-measurements>
+</vit>

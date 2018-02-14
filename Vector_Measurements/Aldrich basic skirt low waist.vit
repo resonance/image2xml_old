@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes>Measurements used in blocks from Metric Pattern Cutting for Women's Wear (6th Edition) - Winifred Aldrich.  
+Based on size 12, 'for high-street fashion garments' page 4.</notes>
+    <unit>cm</unit>
+    <pm_system>42</pm_system>
+    <personal>
+        <family-name>Aldrich</family-name>
+        <given-name>Size 12</given-name>
+        <birth-date>1997-01-01</birth-date>
+        <gender>female</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="height_waist_side_to_knee" value="58.5"/>
+        <m name="height_waist_side_to_hip" value="20.6"/>
+        <m name="height_waist_back" value="104"/>
+        <m name="neck_circ" value="37"/>
+        <m name="bust_circ" value="88"/>
+        <m name="waist_circ" value="68"/>
+        <m name="highhip_circ" value="88"/>
+        <m name="hip_circ" value="94"/>
+        <m name="neck_back_to_waist_b" value="41"/>
+        <m name="waist_to_hip_f" value="0"/>
+        <m name="waist_to_hip_b" value="20.6"/>
+        <m name="shoulder_length" value="12.3"/>
+        <m name="across_chest_f" value="32.4"/>
+        <m name="across_back_b" value="34.4"/>
+        <m name="armscye_length" value="21"/>
+        <m name="leg_ankle_high_circ" value="21"/>
+        <m name="leg_ankle_circ" value="24"/>
+        <m name="crotch_length" value="70"/>
+        <m name="crotch_length_b" value="0"/>
+        <m name="crotch_length_f" value="0"/>
+        <m name="rise_length_side_sitting" value="28"/>
+    </body-measurements>
+</vit>

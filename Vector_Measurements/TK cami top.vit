@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <!--Measurements created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>inch</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name/>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="@FRONT_BODY_LENGTH_FROM_CF" value="18.5"/>
+        <m name="@BACK_BODY_LENGTH_FROM_CB" value="18"/>
+        <m name="@FRONT_NECK_ALONG_EDGE" value="17.25"/>
+        <m name="@BACK_NECK_ALONG_EDGE" value="17.75"/>
+        <m name="@CHEST_AT_AH" value="45.25"/>
+        <m name="@WAIST_POSITION_FROM_HEM" value="6.75"/>
+        <m name="@WAIST" value="44.75"/>
+        <m name="@SIDE_SEAM_LENGTH_FROM_AH_HEM" value="16.5"/>
+        <m name="@SWEEP_ALONG_EDGE" value="46.625"/>
+        <m name="@FRONT_ARMHOLE" value="7.125"/>
+        <m name="@BACK_ARMHOLE" value="7.125"/>
+        <m name="@SHLDR_STRAP_WIDTH" value="0.125"/>
+        <m name="@SHLDR_STRAP_LENGTH" value="42"/>
+    </body-measurements>
+</vit>

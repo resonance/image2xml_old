@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vit>
+    <version>0.3.3</version>
+    <read-only>false</read-only>
+    <notes/>
+    <unit>cm</unit>
+    <pm_system>998</pm_system>
+    <personal>
+        <family-name/>
+        <given-name/>
+        <birth-date>1800-01-01</birth-date>
+        <gender>unknown</gender>
+        <email/>
+    </personal>
+    <body-measurements>
+        <m name="height" value="152"/>
+        <m name="height_waist_side" value="96"/>
+        <m name="height_waist_side_to_knee" value="54"/>
+        <m name="height_waist_side_to_hip" value="19.7"/>
+        <m name="neck_circ" value="34"/>
+        <m name="bust_circ" value="76"/>
+        <m name="waist_circ" value="60"/>
+        <m name="highhip_circ" value="70"/>
+        <m name="hip_circ" value="84"/>
+        <m name="neck_side_to_waist_f" value="39.8"/>
+        <m name="neck_back_to_waist_b" value="37.8"/>
+        <m name="shoulder_length" value="11.5"/>
+        <m name="across_chest_f" value="28.8"/>
+        <m name="across_back_b" value="31.4"/>
+        <m name="arm_shoulder_tip_to_wrist_bent" value="54.5"/>
+        <m name="arm_upper_circ" value="24.8"/>
+        <m name="arm_wrist_circ" value="14.5"/>
+        <m name="armscye_length" value="19"/>
+        <m name="leg_ankle_high_circ" value="19.5"/>
+        <m name="leg_ankle_circ" value="22.5"/>
+        <m name="rise_length_side_sitting" value="24.9"/>
+        <m name="rise_length_side" value="24.9"/>
+        <m name="dart_width_shoulder" value="5.2"/>
+    </body-measurements>
+</vit>

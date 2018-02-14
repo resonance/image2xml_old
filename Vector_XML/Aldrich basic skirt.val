@@ -6,7 +6,7 @@
     <description>Basic skirt block (natural waist)Winifred Aldrich's Metric Pattern Cutting for Women's Wear.6th Edition.  Page 24. </description>
     <notes>Dart lengths and widths have been formularised.  See comments on increments. </notes>
     <showDate>true</showDate>
-    <measurements>Size 12 Aldrich Aldrich basic skirt block rev1.vit</measurements>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Aldrich basic skirt.vit</measurements>
     <increments>
         <increment description="" formula="50" name="#SkirtLength"/>
         <increment description="The book specifies 12cm, and is using a waist-to-hip of 20.6.  This formula assumes that the dart length should be proportional to the waist_to_hip distance." formula="( 12 / 20.6 ) * waist_to_hip_b" name="#FrontDartLength"/>

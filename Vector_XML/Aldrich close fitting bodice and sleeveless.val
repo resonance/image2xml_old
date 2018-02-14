@@ -11,7 +11,7 @@
         <line alignment="0" bold="true" italic="false" sfIncrement="4" text="sandpit"/>
         <line alignment="0" bold="false" italic="true" sfIncrement="0" text="%date%"/>
     </patternLabel>
-    <measurements>Size 12 Aldrich Aldrich close fitting bodice and sleeveless block rev3.vit</measurements>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Aldrich close fitting bodice and sleeveless.vit</measurements>
     <increments>
         <increment description="0 - close fitting bodice block - pg621 - close fitting sleeveless block - pg762 - form fitting - zero or negative ease." formula="1" name="#isCloseFittingSleevelessBlock"/>
         <increment description="0 - no close waist shaping1 - use close waist shaping as per page 77." formula="1" name="#isCloseWaistShaping"/>
