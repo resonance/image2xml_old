@@ -36,10 +36,9 @@
   "operation": "<operation axisType=\"1\" center=\"1\" id=\"19\" suffix=\"a1\" type=\"flippingByAxis\">{}</operation>\n",
   "source": "<source>{}</source>\n",
   "destination": "<destination>{}</destination>\n",
-  "item": "<item idObject=\"20\" mx=\"0.132292\" my=\"0.0113479\"/>\n",
+  "item": "<item idObject=\"20\" tool=\"1\" mx=\"0.132292\" my=\"0.0113479\"/>\n",
   "groups": "<groups>{}</groups>\n",
   "group": "<group id=\"38\" name=\"Front Flipped\" visible=\"true\">{}</group>\n",
-  "item2": "<item object=\"1\" tool=\"1\"/>\n",
   "path": "<path id=\"351\" inUse=\"true\" name=\"Reißverschluss 80cm\" type=\"2\" typeLine=\"hair\">{}</path>\n"
 }
 

@@ -52,7 +52,6 @@ if __name__ == "__main__":
 
     if args.readerFile == "ALL":
         for f in os.listdir(INPUT_DIR_NAME):
-            print(f)
             if '.DS' not in f:
                 OUTPUT_FILE_NAME = f[:-3]  + "gui"
                 read(f, OUTPUT_FILE_NAME)

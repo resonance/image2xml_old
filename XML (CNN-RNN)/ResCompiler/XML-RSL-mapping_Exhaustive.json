@@ -1,0 +1,268 @@
+{
+  "opening-tag": "{",
+  "closing-tag": "}",
+  "pattern": "<pattern>{}</pattern>\n",
+  "unitcm": "<unit>\"cm\"</unit>\n",
+  "version6": "<version>\"0.6.0\"</version>",
+  "description": "<description>[]</description>\n",
+  "gradation1": "<gradation custom=\"false\">{}</gradation> \n",
+  "heights1": "<heights all=\"false\" h104=\"false\" h110=\"false\" h116=\"false\" h122=\"false\" h128=\"false\" h134=\"false\" h140=\"false\" h146=\"false\" h152=\"false\" h158=\"true\" h164=\"true\" h170=\"true\" h176=\"true\" h182=\"false\" h188=\"false\" h194=\"false\" h200=\"false\" h50=\"false\" h56=\"false\" h62=\"false\" h68=\"false\" h74=\"false\" h80=\"false\" h86=\"false\" h92=\"false\" h98=\"false\"/>\n"
+  "sizes1": "<sizes all=\"false\" s22=\"false\" s24=\"false\" s26=\"false\" s28=\"false\" s30=\"false\" s32=\"true\" s34=\"true\" s36=\"true\" s38=\"true\" s40=\"true\" s42=\"true\" s44=\"false\" s46=\"false\" s48=\"false\" s50=\"false\" s52=\"false\" s54=\"false\" s56=\"false\" s58=\"false\" s60=\"false\" s62=\"false\" s64=\"false\" s66=\"false\" s68=\"false\" s70=\"false\" s72=\"false\"/>\n"
+  "patternName": "<patternName>[]</patternName>\n",
+  "patternNumber": "<patternNumber>[]</patternNumber\n",
+  "company": "<company>[]</company\n",
+  "customer": "<customer>[]</customer\n",
+  "patternLabel": "<patternLabel dateFormat=\"yyyy-MM-dd\" timeFormat=\"hh:mm:ss\">{}</patternLabel>\n",
+  "modeling": "<modeling>{}</modeling>\n",
+  "destination": "<destination>{}</destination>\n",
+  "source": "<source>{}</source>\n",
+  "measurements": "<measurements>[]</measurements>\n",
+  "draw": "<draw name=\"\">{}</draw>\n",
+  "draw1": <draw name="Grundschnitt">
+  "calculation": "<calculation>{}</calculation>\n",
+  "details": "<details>{}</details>\n",
+  "detail1": <detail forbidFlipping="false" hideMainPath="false" id="74" inLayout="true" mx="0" my="-0.57404" name="One-Piece Leggings" seamAllowance="true" united="false" version="2" width="1">
+  "operation1": <operation axisType="1" center="1" id="19" suffix="a1" type="flippingByAxis">
+  "data1": <data annotation="" foldPosition="" fontSize="0" height="8" letter="A" mx="-130.176" my="1406.13" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="8">
+  "patternInfo1": <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+  "grainLine1": <grainline arrows="0" length="20" mx="10.0939" my="2685.45" rotation="90" visible="true"/>
+  "nodes": "<nodes>{}</nodes>\n",
+  "groups": "<groups>{}</groups>\n",
+
+  "group1": <group id="18" name="Front" visible="false">
+  "group2": <group id="38" name="Front Flipped" visible="true">
+  "group3": <group id="40" name="Front with Centre Line" visible="false">
+  "group4": <group id="53" name="Back with Curved Waist" visible="true">
+
+
+
+
+
+
+
+  "line1": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%pLetter%"/>
+  "line2": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
+  "line3": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+  "line4": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity% %wOnFold%"/>
+  "line5": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%author%"/>
+  "line6": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%customer%"/>
+  "line7": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%date%"/>
+  "line8": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%height%"/>
+  "line9": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%mExt%"/>
+  "line10": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%mFileName%"/>
+  "line11": <line firstPoint="5" id="8" lineColor="black" secondPoint="6" typeLine="dotLine"/>
+  "line12": <line firstPoint="9" id="10" lineColor="black" secondPoint="5" typeLine="dotLine"/>
+  "line13": <line firstPoint="3" id="37" lineColor="black" secondPoint="20" typeLine="hair"/>
+  "line14": <line firstPoint="1" id="39" lineColor="black" secondPoint="7" typeLine="hair"/>
+  "line15": <line firstPoint="42" id="43" lineColor="black" secondPoint="1" typeLine="dotLine"/>
+  "line16": <line firstPoint="48" id="52" lineColor="black" secondPoint="3" typeLine="hair"/>
+  "line17": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%pLetter%"/>
+  "line18": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
+  "line19": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+  "line20": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%author%"/>
+  "line21": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%customer%"/>
+  "line22": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%date%"/>
+  "line23": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%height%"/>
+  "line24": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%size%"/>
+  "line25": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%mFileName%"/>
+  "line26": <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%pFileName%"/>
+
+
+
+
+  "point1": "<point id=\"1\" mx=\"0.132292\" my=\"0.264583\" name=\"A\" type=\"single\" x=\"0.79375\" y=\"1.05833\"/>\n",
+  "point2": "<point angle=\"270\" basePoint=\"1\" id=\"2\" length=\"rise_length_side_sitting-1\" lineColor=\"black\" mx=\"0.132292\" my=\"0.166492\" name=\"A1\" type=\"endLine\" typeLine=\"none\"/>\n",
+  "point3": "<point angle=\"270\" basePoint=\"1\" id=\"3\" length=\"height_waist_side-8\" lineColor=\"black\" mx=\"0.132292\" my=\"0.264583\" name=\"A2\" type=\"endLine\" typeLine=\"dashLine\"/>\n",
+  "point4": "<point firstPoint=\"2\" id=\"4\" length=\"CurrentLength/2\" lineColor=\"black\" mx=\"0.132292\" my=\"0.264583\" name=\"A3\" secondPoint=\"3\" type=\"alongLine\" typeLine=\"none\"/>\n"
+  "point5": <point angle="180" basePoint="2" id="5" length="(hip_circ/4)-2" lineColor="black" mx="0.132292" my="0.362674" name="A4" type="endLine" typeLine="dotLine"/>
+  "point6": <point firstPoint="5" id="6" mx="-1.13388" my="0.264583" name="A5" secondPoint="1" type="pointOfIntersection"/>
+  "point7": <point firstPoint="6" id="7" length="1" lineColor="black" mx="0.132292" my="0.264583" name="A6" secondPoint="1" type="alongLine" typeLine="none"/>
+  "point8": <point firstPoint="2" id="9" length="CurrentLength+(Line_A4_A5/6)" lineColor="black" mx="0.132292" my="0.0878592" name="A8" secondPoint="5" type="alongLine" typeLine="none"/>
+  "point9": <point firstPoint="5" id="11" length="CurrentLength/4" lineColor="black" mx="0.132292" my="0.264583" name="A7" secondPoint="6" type="alongLine" typeLine="none"/>
+  "point10": <point firstPoint="11" id="12" length="2.25" lineColor="black" mx="0.132292" my="0.264583" name="A8a" secondPoint="5" thirdPoint="9" type="bisector" typeLine="dotLine"/>
+  "point11": <point angle="180" basePoint="3" id="13" length="(leg_ankle_high_circ/2)-0.5" lineColor="black" mx="0.132292" my="0.264583" name="A9" type="endLine" typeLine="hair"/>
+  "point12": <point angle="180" basePoint="4" id="14" length="((Line_A1_A4/3)*2)-0.5" lineColor="black" mx="0.132292" my="0.264583" name="A10" type="endLine" typeLine="dotLine"/>
+  "point13": <point firstPoint="6" id="41" length="4" lineColor="black" mx="0.132292" my="0.264583" name="A11" secondPoint="7" type="alongLine" typeLine="none"/>
+  "point14": <point angle="0" firstPoint="41" id="42" length="3" lineColor="black" mx="0.132292" my="0.264583" name="A12" secondPoint="1" type="normal" typeLine="dotLine"/>
+  "point15": <point firstPoint="5" id="44" length="CurrentLength/3" lineColor="black" mx="0.132292" my="0.264583" name="A13" secondPoint="6" type="alongLine" typeLine="none"/>
+  "point16": <point angle="180" basePoint="9" id="45" length="Line_A1_A4/5" lineColor="black" mx="0.132292" my="0.264583" name="A14" type="endLine" typeLine="dotLine"/>
+  "point17": <point firstPoint="11" id="46" length="3.75" lineColor="black" mx="0.132292" my="0.264583" name="A14a" secondPoint="5" thirdPoint="9" type="bisector" typeLine="dotLine"/>
+  "point18": <point angle="180" basePoint="13" id="48" length="2" lineColor="black" mx="0.132292" my="0.0957596" name="A15" type="endLine" typeLine="none"/>
+  "point19": <point angle="180" basePoint="14" id="49" length="3" lineColor="black" mx="0.132292" my="0.264583" name="A16" type="endLine" typeLine="dotLine"/>
+  "point20": <point id="54" idObject="45" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point21": <point id="56" idObject="44" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point22": <point id="58" idObject="42" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point23": <point id="60" idObject="1" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point24": <point id="62" idObject="28" inUse="true" mx="-3.07535" my="0.517818" type="modeling"/>
+  "point25": <point id="64" idObject="23" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point26": <point id="66" idObject="22" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point27": <point id="68" idObject="20" inUse="true" mx="0.132292" my="0.0113479" type="modeling"/>
+  "point28": <point id="69" idObject="3" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point29": <point id="70" idObject="48" inUse="true" mx="0.132292" my="0.0957596" type="modeling"/>
+  "point30": <point id="72" idObject="49" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+  "point31": <point id="1" mx="0.132292" my="0.264583" name="A" type="single" x="0.79375" y="1.05833"/>
+  "point32": <point angle="180" basePoint="1" id="2" length="neck_width" lineColor="black" mx="0.230329" my="0.19872" name="K" type="endLine" typeLine="hair"/>
+  "point33": <point angle="270" basePoint="1" id="3" length="2" lineColor="black" mx="0.132292" my="0.264583" name="B" type="endLine" typeLine="hair"/>
+  "point34": <point angle="270" basePoint="1" id="4" length="neck_back_to_waist_b" lineColor="black" mx="0.132292" my="0.264583" name="C" type="endLine" typeLine="hair"/>
+  "point35": <point angle="270" basePoint="1" id="5" length="81.7" lineColor="black" mx="0.132292" my="0.148369" name="D" type="endLine" typeLine="hair"/>
+  "point36": <point angle="270" basePoint="3" id="6" length="neck_back_to_highbust_b" lineColor="black" mx="0.271739" my="0.264583" name="E" type="endLine" typeLine="hair"/>
+  "point37": <point angle="180" basePoint="6" id="7" length="bust_circ/2+3" lineColor="black" mx="0.386966" my="0.179692" name="F" type="endLine" typeLine="hair"/>
+  "point38": <point angle="180" basePoint="6" id="8" length="Line_E_F/2" lineColor="black" mx="0.988843" my="0.596151" name="G" type="endLine" typeLine="hair"/>
+  "point39": <point angle="180" basePoint="8" id="9" length="armscye_width/2" lineColor="black" mx="0.132292" my="0.264583" name="H" type="endLine" typeLine="hair"/>
+  "point40": <point angle="0" basePoint="8" id="10" length="armscye_width/2" lineColor="black" mx="0.132292" my="0.264583" name="J" type="endLine" typeLine="hair"/>
+  "point41": <point angle="180" basePoint="1" id="12" length="(bust_circ/2+5)/2-armscye_width/2" lineColor="black" mx="0.329882" my="-1.71132" name="L" type="endLine" typeLine="hair"/>
+  "point42": <point angle="270" basePoint="12" id="13" length="1" lineColor="black" mx="0.527473" my="-0.657506" name="M" type="endLine" typeLine="hair"/>
+  "point43": <point firstPoint="2" id="14" length="shoulder_length" lineColor="black" mx="-0.460479" my="-1.90891" name="N" secondPoint="13" type="alongLine" typeLine="none"/>
+  "point44": <point angle="90" basePoint="10" id="15" length="(neck_back_to_highbust_b+1)/4" lineColor="black" mx="0.132292" my="0.264583" name="O" type="endLine" typeLine="hair"/>
+  "point45": <point angle="180" basePoint="15" id="16" length="2" lineColor="black" mx="0.132292" my="0.264583" name="P" type="endLine" typeLine="hair"/>
+
+
+
+
+
+
+
+
+
+  "spline1": <spline color="black" id="15" penStyle="hair" type="pathInteractive">
+  "spline2": <spline color="black" id="16" penStyle="hair" type="pathInteractive">
+  "spline3": <spline color="black" id="47" penStyle="hair" type="pathInteractive">
+  "spline4": <spline color="black" id="50" penStyle="hair" type="pathInteractive">
+  "spline5": <spline color="black" id="51" penStyle="hair" type="pathInteractive">
+  "spline6": <spline id="55" idObject="47" inUse="true" type="modelingPath"/>
+  "spline7": <spline id="57" idObject="47" inUse="true" type="modelingPath"/>
+  "spline8": <spline id="59" idObject="51" inUse="true" type="modelingPath"/>
+  "spline9": <spline id="61" idObject="51" inUse="true" type="modelingPath"/>
+  "spline10": <spline id="63" idObject="25" inUse="true" type="modelingPath"/>
+  "spline11": <spline id="65" idObject="21" inUse="true" type="modelingPath"/>
+  "spline12": <spline id="67" idObject="21" inUse="true" type="modelingPath"/>
+  "spline13": <spline id="71" idObject="50" inUse="true" type="modelingPath"/>
+  "spline14": <spline id="73" idObject="50" inUse="true" type="modelingPath"/>
+  "spline15": <spline angle1="329.03" angle2="180.809" color="black" id="11" length1="2.81238" length2="3.77842" point1="2" point4="3" type="simpleInteractive"/>
+
+
+  "pathPoint1": "<pathPoint angle1="274.118" angle2="94.118" length1="0" length2="13.359" pSpline="13"/>
+  "pathPoint2": <pathPoint angle1="275.458" angle2="95.458" length1="2.71584" length2="19.679" pSpline="14"/>
+  "pathPoint3": <pathPoint angle1="313.851" angle2="133.851" length1="7.76461" length2="1.08975" pSpline="9"/>
+  "pathPoint4": <pathPoint angle1="180" angle2="0" length1="0" length2="1.31409" pSpline="9"/>
+  "pathPoint5": <pathPoint angle1="243.582" angle2="63.582" length1="0.924416" length2="1.16641" pSpline="12"/>
+  "pathPoint6": <pathPoint angle1="264.69" angle2="84.6901" length1="2.39773" length2="1.05562" pSpline="11"/>
+  "pathPoint7": <pathPoint angle1="266.381" angle2="86.381" length1="4.52781" length2="1.50893" pSpline="7"/>
+  "pathPoint8": <pathPoint angle1="181.123" angle2="1.123" length1="0" length2="3.13362" pSpline="45"/>
+  "pathPoint9": <pathPoint angle1="222.917" angle2="42.9173" length1="1.22013" length2="1.84994" pSpline="46"/>
+  "pathPoint10": <pathPoint angle1="255.803" angle2="75.803" length1="1.33435" length2="4.38095" pSpline="44"/>
+  "pathPoint11": <pathPoint angle1="260.464" angle2="80.464" length1="6.91116" length2="1.55505" pSpline="42"/>
+  "pathPoint12": <pathPoint angle1="276.9" angle2="96.8996" length1="0" length2="12.765" pSpline="48"/>
+  "pathPoint13": <pathPoint angle1="275.435" angle2="95.435" length1="3.07526" length2="18.0795" pSpline="49"/>
+  "pathPoint14": <pathPoint angle1="313.825" angle2="133.825" length1="9.22123" length2="1.62647" pSpline="45"/>
+  "pathPoint15": <pathPoint angle1="161.035" angle2="341.035" length1="0" length2="6.51843" pSpline="42"/>
+  "pathPoint16": <pathPoint angle1="180" angle2="0" length1="2.97691" length2="0.999052" pSpline="1"/>
+  "pathPoint17": <pathPoint angle1="180" angle2="0" length1="5.7198" length2="2.13609" pSpline="28"/>
+
+  "item1": <item idObject="13"/>
+  "item2": <item idObject="15"/>
+  "item3": <item idObject="14"/>
+  "item4": <item idObject="9"/>
+  "item5": <item idObject="5"/>
+  "item6": <item idObject="16"/>
+  "item7": <item idObject="12"/>
+  "item8": <item idObject="11"/>
+  "item9": <item idObject="7"/>
+  "item10": <item idObject="6"/>
+  "item11": <item idObject="20" mx="0.132292" my="0.0113479"/>
+  "item12": <item idObject="21"/>
+  "item13": <item idObject="22" mx="0.132292" my="0.264583"/>
+  "item14": <item idObject="23" mx="0.132292" my="0.264583"/>
+  "item15": <item idObject="24" mx="0.132292" my="0.362674"/>
+  "item16": <item idObject="25"/>
+  "item17": <item idObject="26" mx="0.132292" my="0.264583"/>
+  "item18": <item idObject="27" mx="0.132292" my="0.264583"/>
+  "item19": <item idObject="28" mx="-3.07535" my="0.517818"/>
+  "item20": <item idObject="29" mx="0.132292" my="0.264583"/>
+  "item21": <item object="5" tool="5"/>
+  "item22": <item object="6" tool="6"/>
+  "item23": <item object="7" tool="7"/>
+  "item24": <item object="8" tool="8"/>
+  "item25": <item object="9" tool="9"/>
+  "item26": <item object="10" tool="10"/>
+  "item27": <item object="11" tool="11"/>
+  "item28": <item object="12" tool="12"/>
+  "item29": <item object="13" tool="13"/>
+  "item30": <item object="14" tool="14"/>
+  "item31": <item object="15" tool="15"/>
+  "item32": <item object="16" tool="16"/>
+  "item33": <item object="17" tool="17"/>
+  "item34": <item object="1" tool="1"/>
+  "item35": <item object="2" tool="2"/>
+  "item36": <item object="3" tool="3"/>
+  "item37": <item object="4" tool="4"/>
+  "item38": <item object="20" tool="19"/>
+  "item39": <item object="21" tool="19"/>
+  "item40": <item object="22" tool="19"/>
+  "item41": <item object="23" tool="19"/>
+  "item42": <item object="24" tool="19"/>
+  "item43": <item object="25" tool="19"/>
+  "item44": <item object="26" tool="19"/>
+  "item45": <item object="27" tool="19"/>
+  "item46": <item object="28" tool="19"/>
+  "item47": <item object="29" tool="19"/>
+  "item48": <item object="36" tool="36"/>
+  "item49": <item object="37" tool="37"/>
+  "item50": <item object="1" tool="1"/>
+  "item51": <item object="2" tool="2"/>
+  "item52": <item object="3" tool="3"/>
+  "item53": <item object="4" tool="4"/>
+  "item54": <item object="5" tool="5"/>
+  "item55": <item object="6" tool="6"/>
+  "item56": <item object="7" tool="7"/>
+  "item57": <item object="8" tool="8"/>
+  "item58": <item object="9" tool="9"/>
+  "item59": <item object="10" tool="10"/>
+  "item60": <item object="11" tool="11"/>
+  "item61": <item object="12" tool="12"/>
+  "item62": <item object="13" tool="13"/>
+  "item63": <item object="14" tool="14"/>
+  "item64": <item object="15" tool="15"/>
+  "item65": <item object="16" tool="16"/>
+  "item66": <item object="39" tool="39"/>
+  "item67": <item object="41" tool="41"/>
+  "item68": <item object="42" tool="42"/>
+  "item69": <item object="43" tool="43"/>
+  "item70": <item object="44" tool="44"/>
+  "item71": <item object="45" tool="45"/>
+  "item72": <item object="46" tool="46"/>
+  "item73": <item object="47" tool="47"/>
+  "item74": <item object="48" tool="48"/>
+  "item75": <item object="49" tool="49"/>
+  "item76": <item object="50" tool="50"/>
+  "item77": <item object="51" tool="51"/>
+  "item78": <item object="52" tool="52"/>
+
+
+  "node1": <node idObject="54" type="NodePoint"/>
+  "node2": <node idObject="55" reverse="0" type="NodeSplinePath"/>
+  "node3": <node idObject="56" type="NodePoint"/>
+  "node4": <node idObject="57" reverse="0" type="NodeSplinePath"/>
+  "node5": <node idObject="58" type="NodePoint"/>
+  "node6": <node idObject="59" reverse="0" type="NodeSplinePath"/>
+  "node7": <node idObject="60" type="NodePoint"/>
+  "node8": <node idObject="61" reverse="0" type="NodeSplinePath"/>
+  "node9": <node idObject="62" type="NodePoint"/>
+  "node10": <node idObject="63" reverse="1" type="NodeSplinePath"/>
+  "node11": <node idObject="64" type="NodePoint"/>
+  "node12": <node idObject="65" reverse="1" type="NodeSplinePath"/>
+  "node13": <node idObject="66" type="NodePoint"/>
+  "node14": <node idObject="67" reverse="1" type="NodeSplinePath"/>
+  "node15": <node after="CurrentSeamAllowance+2" idObject="68" type="NodePoint"/>
+  "node16": <node after="CurrentSeamAllowance+2" before="CurrentSeamAllowance+2" idObject="69" type="NodePoint"/>
+  "node17": <node before="CurrentSeamAllowance+2" idObject="70" type="NodePoint"/>
+  "node18": <node idObject="71" reverse="0" type="NodeSplinePath"/>
+  "node19": <node idObject="72" type="NodePoint"/>
+  "node20": <node idObject="73" reverse="0" type="NodeSplinePath"/>
+
+
+
+
+
+
+}

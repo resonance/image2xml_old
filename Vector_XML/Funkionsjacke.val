@@ -3,12 +3,9 @@
     <version>0.6.0</version>
     <unit>cm</unit>
     <description>Funktionspulli</description>
-    <notes/>
     <patternName>Funktionsjacke</patternName>
-    <patternNumber/>
     <company>Buggi</company>
     <measurements>Matthias Burkhardt Funktionsjacke rev1.vit</measurements>
-    <increments/>
     <draw name="Grundschnitt">
         <calculation>
             <point id="1" mx="0.132292" my="0.264583" name="A" type="single" x="0.79375" y="1.05833"/>
