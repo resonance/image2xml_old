@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <version>0.6.0</version>
+    <unit>cm</unit>
+    <description>Funktionspulli</description>
+    <patternName>Funktionsjacke</patternName>
+    <company>Buggi</company>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Funktionsjacke.vit</measurements>
+    <draw name="Kapuze">
+        <calculation>
+            <point id="395" mx="-1.74858" my="0.093595" name="ß" type="single" x="-36.7383" y="-9.29494"/>
+            <point angle="0" basePoint="395" id="396" length="2*Spl_U_T+2*Spl_K_B" lineColor="black" mx="0.132292" my="0.264583" name="C3" type="endLine" typeLine="hair"/>
+            <point firstPoint="395" id="397" length="Line_ß_C3/2" lineColor="black" mx="0.132292" my="0.264583" name="C4" secondPoint="396" type="alongLine" typeLine="none"/>
+            <point firstPoint="397" id="398" length="5" lineColor="black" mx="0.132292" my="0.326113" name="C5" secondPoint="395" type="alongLine" typeLine="none"/>
+            <point angle="90" basePoint="397" id="399" length="@Kapuzenlänge" lineColor="black" mx="0.132292" my="0.264583" name="C6" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="398" id="400" length="@Kapuzenlänge" lineColor="black" mx="0.132292" my="0.264583" name="C7" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="395" id="401" length="@Kapuzenlänge/2-2" lineColor="black" mx="0.180839" my="0.264583" name="C8" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="401" id="402" length="5" lineColor="black" mx="0.132292" my="0.264583" name="C9" type="endLine" typeLine="hair"/>
+            <spline angle1="32.9996" angle2="63.7677" color="black" id="404" length1="28.471" length2="15.1144" point1="402" point4="398" type="simpleInteractive"/>
+            <point angle="90" basePoint="395" id="405" length="Line_U_Kragen" lineColor="black" mx="0.132292" my="0.264583" name="C10" type="endLine" typeLine="hair"/>
+            <spline angle1="0.804965" angle2="354.589" color="black" id="406" length1="6.89834" length2="10.1089" point1="405" point4="402" type="simpleInteractive"/>
+            <point angle="90" basePoint="405" id="407" length="9" lineColor="black" mx="0.132292" my="0.264583" name="C11" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="407" id="408" length="8" lineColor="black" mx="0.132292" my="0.264583" name="C12" type="endLine" typeLine="hair"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>

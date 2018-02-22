@@ -1,0 +1,48 @@
+{
+  "opening-tag": "{",
+  "closing-tag": "}",
+  "point": "<point angle=\"0\" firstPoint=\"1\" basePoint=\"1\" id=\"2\" length=\"( hip_circ /2 )+ #HipEase\" lineColor=\"cornflowerblue\" mx=\"0.132292\" my=\"0.264583\" name=\"A2\" secondPoint=\"1\" type=\"endLine\" typeLine=\"hair\"/>\n",
+  "line": "<line firstPoint=\"17\" id=\"27\" lineColor=\"black\" secondPoint=\"25\" typeLine=\"hair\"/>\n",
+  "spline": "<spline color=\"black\" id=\"36\" penStyle=\"hair\" point1=\"21\" point2=\"32\" point3=\"33\" point4=\"26\" type=\"cubicBezier\"/>\n",
+  "calculation": "<calculation>{}</calculation>\n" ,
+  "draw": "<draw name=\"skirt block - low waist\">{}</draw>\n",
+  "pattern": "<pattern>{}</pattern>\n"  ,
+  "increments": "<increment>{}</increment>\n",
+  "increment": "<increment description=\"Some Assumption\" formula=\"(highhip_circ+waist_circ)/2\" name=\"#LowWaistCirc\"/>\n",
+  "version": "<version>[]</version>\n",
+  "patternName": "<patternName>[]</patternName>\n",
+  "unit": "<unit>[]</unit>\n",
+  "author": "<author>[]</author>\n",
+  "description": "<description>[]</description>\n",
+  "notes": "<notes>[]</notes>\n",
+  "measurements": "<measurements>[]</measurements>\n",
+  "modeling": "<modeling>{}</modeling>\n",
+  "details": "<details>{}</details>\n",
+  "detail": "<detail forbidFlipping=\"false\" id=\"38\" inLayout=\"true\" mx=\"5.0533\" my=\"0.300173\" name=\"Detail\" seamAllowance=\"false\" united=\"false\" version=\"2\" width=\"0.393701\">\n",
+  "data":   "<data annotation=\"\" foldPosition=\"\" fontSize=\"0\" height=\"8\" letter=\"A\" mx=\"-130.176\" my=\"1406.13\" onFold=\"false\" orientation=\"\" quantity=\"2\" rotation=\"0\" rotationWay=\"\" tilt=\"\" visible=\"true\" width=\"8\">\n",
+  "patternInfo": "<patternInfo fontSize=\"0\" height=\"1\" mx=\"0\" my=\"0\" rotation=\"0\" visible=\"false\" width=\"1\"/>\n",
+  "grainLine": "<grainline arrows=\"0\" length=\"90\" mx=\"0\" my=\"0\" rotation=\"1\" visible=\"false\"/>\n",
+  "nodes": "<nodes>{}</nodes>\n",
+  "node": "<node idObject=\"41\" reverse=\"0\" type=\"NodeSpline\"/>\n",
+  "splineBlock": "<spline color=\"darkRed\" id=\"31\" type=\"pathInteractive\">{}</spline>\n",
+  "pathPoint": "<pathPoint angle1=\"273.904\" angle2=\"93.904\" length1=\"0\" length2=\"12.2009\" pSpline=\"18\"/>\n",
+  "pins": "<pins>{}</pins>\n",
+  "record": "<record>[]</record>\n",
+  "heights": "<heights all=\"false\" h104=\"false\" h110=\"false\" h116=\"false\" h122=\"false\" h128=\"false\" h134=\"false\" h140=\"false\" h146=\"false\" h152=\"false\" h158=\"true\" h164=\"true\" h170=\"true\" h176=\"true\" h182=\"false\" h188=\"false\" h194=\"false\" h200=\"false\" h50=\"false\" h56=\"false\" h62=\"false\" h68=\"false\" h74=\"false\" h80=\"false\" h86=\"false\" h92=\"false\" h98=\"false\"/>\n" ,
+  "sizes": "<sizes all=\"false\" s22=\"false\" s24=\"false\" s26=\"false\" s28=\"false\" s30=\"false\" s32=\"true\" s34=\"true\" s36=\"true\" s38=\"true\" s40=\"true\" s42=\"true\" s44=\"false\" s46=\"false\" s48=\"false\" s50=\"false\" s52=\"false\" s54=\"false\" s56=\"false\" s58=\"false\" s60=\"false\" s62=\"false\" s64=\"false\" s66=\"false\" s68=\"false\" s70=\"false\" s72=\"false\"/>\n" ,
+  "gradation": "<gradation custom=\"false\">{}</gradation> \n",
+  "lineAlignment": "<line alignment=\"4\" bold=\"false\" italic=\"false\" sfIncrement=\"0\" text=\"%pLetter%\"/>\n",
+  "patternLabel": "<patternLabel dateFormat=\"yyyy-MM-dd\" timeFormat=\"hh:mm:ss\">{}</patternLabel>\n",
+  "operation": "<operation axisType=\"1\" center=\"1\" id=\"19\" suffix=\"a1\" type=\"flippingByAxis\">{}</operation>\n",
+  "source": "<source>{}</source>\n",
+  "destination": "<destination>{}</destination>\n",
+  "item": "<item idObject=\"20\" tool=\"1\" mx=\"0.132292\" my=\"0.0113479\"/>\n",
+  "groups": "<groups>{}</groups>\n",
+  "group": "<group id=\"38\" name=\"Front Flipped\" visible=\"true\">{}</group>\n",
+  "path": "<path id=\"351\" inUse=\"true\" name=\"Reißverschluss 80cm\" type=\"2\" typeLine=\"hair\">{}</path>\n"
+}
+
+
+
+
+Set up the proper infrastructure to run the test accuracy and the generate fit models.

@@ -250,46 +250,4 @@
         </details>
         <groups/>
     </draw>
-    <draw name="Seitentasche">
-        <calculation>
-            <point id="178" mx="-2.47222" my="1.51475" name="Ä" type="single" x="58.2063" y="17.4476"/>
-            <point angle="180" basePoint="178" id="191" length="Line_VSTA_ST2" lineColor="black" mx="0.132292" my="-1.60277" name="Vorne_oben" type="endLine" typeLine="hair"/>
-            <point angle="0" basePoint="178" id="192" length="Line_HSTA_ST2" lineColor="black" mx="-5.55466" my="-1.77253" name="Hinten_oben" type="endLine" typeLine="hair"/>
-            <point angle="270" basePoint="178" id="317" length="Line_VSTI_FWV-0.1" lineColor="black" mx="-1.2301" my="0.619991" name="FWU" type="endLine" typeLine="hair"/>
-            <point angle="180" basePoint="317" id="318" length="Line_FW1_FW3" lineColor="black" mx="-5.55423" my="0.619991" name="Vorne_unten" type="endLine" typeLine="hair"/>
-            <point angle="0" basePoint="317" id="319" length="Line_FW1_FW5" lineColor="black" mx="-2.05939" my="0.73846" name="hinten_unten" type="endLine" typeLine="hair"/>
-            <spline angle1="91.32" angle2="269.432" color="black" id="320" length1="45.9347" length2="16.6205" point1="318" point4="191" type="simpleInteractive"/>
-            <spline angle1="270.325" angle2="89.7047" color="black" id="321" length1="16.6323" length2="46.2289" point1="192" point4="319" type="simpleInteractive"/>
-        </calculation>
-        <modeling>
-            <point id="322" idObject="319" inUse="true" mx="-2.05939" my="0.73846" type="modeling"/>
-            <point id="323" idObject="318" inUse="true" mx="-5.55423" my="0.619991" type="modeling"/>
-            <spline id="324" idObject="320" inUse="true" type="modelingSpline"/>
-            <point id="325" idObject="191" inUse="true" mx="0.740451" my="0.424428" type="modeling"/>
-            <point id="326" idObject="192" inUse="true" mx="-6.85207" my="0.416844" type="modeling"/>
-            <spline id="327" idObject="321" inUse="true" type="modelingSpline"/>
-            <point id="565" idObject="191" inUse="true" type="pin"/>
-            <point id="566" idObject="192" inUse="true" type="pin"/>
-        </modeling>
-        <details>
-            <detail forbidFlipping="false" hideMainPath="false" id="328" inLayout="true" mx="1.14032" my="-6.33426" name="Seitentasche" seamAllowance="true" united="false" version="2" width="1">
-                <data fontSize="43" height="3.33042" letter="ST" mx="1774.78" my="784.924" rotation="0" visible="true" width="7.2418"/>
-                <patternInfo fontSize="28" height="4.08568" mx="1767.53" my="902.15" rotation="0" visible="true" width="7.2999"/>
-                <grainline arrows="0" length="91.9087" mx="2187.38" my="4132.4" rotation="90" visible="true"/>
-                <nodes>
-                    <node after="3" idObject="322" type="NodePoint"/>
-                    <node before="3" idObject="323" type="NodePoint"/>
-                    <node idObject="324" reverse="0" type="NodeSpline"/>
-                    <node idObject="325" type="NodePoint"/>
-                    <node idObject="326" type="NodePoint"/>
-                    <node idObject="327" reverse="0" type="NodeSpline"/>
-                </nodes>
-                <pins>
-                    <record>565</record>
-                    <record>566</record>
-                </pins>
-            </detail>
-        </details>
-        <groups/>
-    </draw>
 </pattern>

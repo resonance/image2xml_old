@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <version>0.6.0</version>
+    <unit>cm</unit>
+    <description>Funktionspulli</description>
+    <patternName>Funktionsjacke</patternName>
+    <company>Buggi</company>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Funktionsjacke.vit</measurements>
+    <draw name="Ärmel">
+        <calculation>
+            <point id="42" mx="0.675057" my="0.15603" name="I" type="single" x="33.4409" y="19.2401"/>
+            <point angle="270" basePoint="42" id="43" length="bust_circ/10+5" lineColor="black" mx="0.270722" my="0.264583" name="B1" type="endLine" typeLine="hair"/>
+            <arc angle1="0" angle2="90" center="43" color="black" id="44" radius="(SplPath_G_N+Spl_X_G-1.5)/2" type="simple"/>
+            <point angle="0" basePoint="42" curve="44" id="45" lineColor="black" mx="0.132292" my="0.264583" name="B2" type="curveIntersectAxis" typeLine="hair"/>
+            <line firstPoint="43" id="48" lineColor="black" secondPoint="45" typeLine="hair"/>
+            <point firstPoint="43" id="50" length="Line_B1_B2/4" lineColor="black" mx="-1.15809" my="-1.84077" name="B5" secondPoint="45" type="alongLine" typeLine="none"/>
+            <point firstPoint="50" id="51" length="Line_B1_B2/4" lineColor="black" mx="0.132292" my="0.264583" name="B6" secondPoint="45" type="alongLine" typeLine="none"/>
+            <spline angle1="10.1418" angle2="179.993" color="black" id="54" length1="10.8754" length2="8.71566" point1="43" point4="45" type="simpleInteractive"/>
+            <point firstPoint="51" id="55" length="Line_B1_B2/4" lineColor="black" mx="0.132292" my="0.264583" name="B9" secondPoint="45" type="alongLine" typeLine="none"/>
+            <point angle="0" firstPoint="50" id="56" length="1" lineColor="black" mx="0.132292" my="0.264583" name="B10" secondPoint="43" type="normal" typeLine="hair"/>
+            <point angle="0" firstPoint="55" id="57" length="1" lineColor="black" mx="0.132292" my="0.264583" name="B11" secondPoint="45" type="normal" typeLine="hair"/>
+            <point angle="270" basePoint="45" id="58" length="arm_shoulder_tip_to_wrist+3" lineColor="black" mx="0.132292" my="0.264583" name="B3" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="58" id="59" length="arm_wrist_circ/2+2" lineColor="black" mx="0.132292" my="0.264583" name="B4" type="endLine" typeLine="hair"/>
+            <spline angle1="91.9066" angle2="316.805" color="black" id="161" length1="7.93928" length2="10.8813" point1="59" point4="43" type="simpleInteractive"/>
+            <point angle="90" basePoint="58" id="236" length="3*arm_shoulder_tip_to_wrist/10" lineColor="black" mx="0.132292" my="0.264583" name="UA" type="endLine" typeLine="hair"/>
+            <point angle="0" firstPoint="236" id="237" length="-arm_lower_circ/2+1" lineColor="black" mx="0.132292" my="0.264583" name="UAW" secondPoint="58" type="normal" typeLine="hair"/>
+            <point angle="90" basePoint="58" id="238" length="3*arm_shoulder_tip_to_wrist/5" lineColor="black" mx="0.132292" my="0.264583" name="OA" type="endLine" typeLine="hair"/>
+            <point angle="0" firstPoint="238" id="239" length="-arm_above_elbow_circ/2+1" lineColor="black" mx="0.132292" my="0.264583" name="Ä1" secondPoint="236" type="normal" typeLine="hair"/>
+            <operation axisType="1" center="45" id="300" suffix="ä1" type="flippingByAxis">
+                <source>
+                    <item idObject="59"/>
+                    <item idObject="161"/>
+                    <item idObject="43"/>
+                    <item idObject="54"/>
+                </source>
+                <destination>
+                    <item idObject="301" mx="0.132292" my="0.264583"/>
+                    <item idObject="302" mx="2147480000" my="2147480000"/>
+                    <item idObject="303" mx="0.270722" my="0.264583"/>
+                    <item idObject="304" mx="2147480000" my="2147480000"/>
+                </destination>
+            </operation>
+        </calculation>
+        <modeling>
+            <point id="305" idObject="301" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="306" idObject="59" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="307" idObject="161" inUse="true" type="modelingSpline"/>
+            <point id="308" idObject="43" inUse="true" mx="0.270722" my="0.264583" type="modeling"/>
+            <spline id="309" idObject="54" inUse="true" type="modelingSpline"/>
+            <point id="310" idObject="45" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="311" idObject="304" inUse="true" type="modelingSpline"/>
+            <point id="312" idObject="303" inUse="true" mx="0.270722" my="0.264583" type="modeling"/>
+            <spline id="313" idObject="302" inUse="true" type="modelingSpline"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" hideMainPath="false" id="314" inLayout="true" mx="-45.1257" my="-14.0395" name="Ärmel" seamAllowance="true" united="false" version="2" width="1">
+                <data fontSize="41" height="2.96057" letter="rm" mx="1960.1" my="958.865" rotation="0" visible="true" width="8.45015"/>
+                <patternInfo fontSize="39" height="5.64522" mx="1961.75" my="1084.01" rotation="0" visible="true" width="9.6139"/>
+                <grainline arrows="0" length="50" mx="2164.36" my="3389.22" rotation="90" visible="true"/>
+                <nodes>
+                    <node after="3" idObject="305" type="NodePoint"/>
+                    <node before="3" idObject="306" type="NodePoint"/>
+                    <node idObject="307" reverse="0" type="NodeSpline"/>
+                    <node idObject="308" type="NodePoint"/>
+                    <node idObject="309" reverse="0" type="NodeSpline"/>
+                    <node idObject="310" type="NodePoint"/>
+                    <node idObject="311" type="NodeSpline"/>
+                    <node idObject="312" type="NodePoint"/>
+                    <node idObject="313" type="NodeSpline"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <version>0.6.0</version>
+    <unit>cm</unit>
+    <description>Funktionspulli</description>
+    <patternName>Funktionsjacke</patternName>
+    <company>Buggi</company>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Funktionsjacke.vit</measurements>
+    <draw name="Kragen">
+        <calculation>
+            <point id="227" mx="0.132292" my="0.264583" name="Ö" type="single" x="10.63" y="1.06"/>
+            <point angle="90" basePoint="227" id="228" length="2" lineColor="black" mx="0.132292" my="0.264583" name="Ö1" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="227" id="229" length="(Spl_U_T+Spl_K_B)-0.25" lineColor="black" mx="0.132292" my="0.264583" name="C1" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="227" id="261" length="(Spl_U_T+Spl_K_B)/2" lineColor="black" mx="-6.99506" my="0.573301" name="Mitte" type="endLine" typeLine="hair"/>
+            <point angle="0" firstPoint="228" id="421" length="Line_U_Kragen" lineColor="black" mx="0.132292" my="0.264583" name="B7" secondPoint="261" type="normal" typeLine="hair"/>
+            <point angle="90" basePoint="229" id="422" length="1" lineColor="black" mx="0.132292" my="0.264583" name="B8" type="endLine" typeLine="hair"/>
+            <point angle="90" basePoint="422" id="423" length="Line_U_Kragen+2" lineColor="black" mx="0.132292" my="0.264583" name="B12" type="endLine" typeLine="hair"/>
+            <spline color="black" id="424" type="pathInteractive">
+                <pathPoint angle1="0.0759755" angle2="180.076" length1="0" length2="4.70442" pSpline="422"/>
+                <pathPoint angle1="359.319" angle2="179.319" length1="4.85272" length2="2.11794" pSpline="261"/>
+                <pathPoint angle1="347.346" angle2="167.346" length1="4.56523" length2="0" pSpline="228"/>
+            </spline>
+            <spline angle1="353.54" angle2="180.575" color="black" id="425" length1="12.5538" length2="6.5774" point1="421" point4="423" type="simpleInteractive"/>
+            <operation axisType="1" center="423" id="426" suffix="b1" type="flippingByAxis">
+                <source>
+                    <item idObject="424"/>
+                    <item idObject="228"/>
+                    <item idObject="421"/>
+                    <item idObject="425"/>
+                </source>
+                <destination>
+                    <item idObject="427" mx="2147480000" my="2147480000"/>
+                    <item idObject="428" mx="0.132292" my="0.264583"/>
+                    <item idObject="429" mx="0.132292" my="0.264583"/>
+                    <item idObject="430" mx="2147480000" my="2147480000"/>
+                </destination>
+            </operation>
+            <point angle="90" basePoint="422" id="442" length="@Kapuzenlänge" lineColor="black" mx="0.132292" my="0.264583" name="B13" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="442" id="443" length="5" lineColor="black" mx="0.132292" my="0.264583" name="B14" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="443" curve="424" id="444" lineColor="black" mx="0.132292" my="0.264583" name="B15" type="curveIntersectAxis" typeLine="hair"/>
+            <point angle="0" firstPoint="421" id="447" length="-4" lineColor="black" mx="-3.5177" my="-1.04288" name="B16" secondPoint="228" type="normal" typeLine="hair"/>
+            <point firstPoint="228" id="448" length="@Kapuzenlänge/2" lineColor="black" mx="0.132292" my="0.264583" name="B17" secondPoint="421" type="alongLine" typeLine="none"/>
+            <point angle="0" firstPoint="448" id="449" length="-5" lineColor="black" mx="0.132292" my="0.264583" name="B18" secondPoint="228" type="normal" typeLine="hair"/>
+            <spline angle1="31.8737" angle2="309.936" color="black" id="450" length1="5.46641" length2="5.28204" point1="447" point4="449" type="simpleInteractive"/>
+            <spline angle1="50.43" angle2="90.1646" color="black" id="451" length1="31.16" length2="2.5606" point1="449" point4="444" type="simpleInteractive"/>
+            <operation axisType="1" center="229" id="452" suffix="b2" type="flippingByAxis">
+                <source>
+                    <item idObject="444"/>
+                    <item idObject="447"/>
+                    <item idObject="450"/>
+                    <item idObject="449"/>
+                    <item idObject="451"/>
+                    <item idObject="443"/>
+                </source>
+                <destination>
+                    <item idObject="453" mx="0.132292" my="0.264583"/>
+                    <item idObject="454" mx="0.132292" my="0.264583"/>
+                    <item idObject="455" mx="2147480000" my="2147480000"/>
+                    <item idObject="456" mx="0.132292" my="0.264583"/>
+                    <item idObject="457" mx="2147480000" my="2147480000"/>
+                    <item idObject="458" mx="0.132292" my="0.264583"/>
+                </destination>
+            </operation>
+        </calculation>
+        <modeling>
+            <point id="431" idObject="422" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="432" idObject="424" inUse="true" type="modelingPath"/>
+            <point id="433" idObject="228" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="434" idObject="421" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="435" idObject="425" inUse="true" type="modelingSpline"/>
+            <point id="436" idObject="423" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="437" idObject="430" inUse="true" type="modelingSpline"/>
+            <point id="438" idObject="429" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="439" idObject="428" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="440" idObject="427" inUse="true" type="modelingPath"/>
+            <point id="459" idObject="453" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="460" idObject="427" inUse="true" type="modelingPath"/>
+            <spline id="461" idObject="424" inUse="true" type="modelingPath"/>
+            <point id="462" idObject="444" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="463" idObject="443" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="464" idObject="458" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="466" idObject="444" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="467" idObject="424" inUse="true" type="modelingPath"/>
+            <point id="468" idObject="228" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="469" idObject="447" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="470" idObject="450" inUse="true" type="modelingSpline"/>
+            <point id="471" idObject="449" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <spline id="472" idObject="451" inUse="true" type="modelingSpline"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" hideMainPath="false" id="441" inLayout="true" mx="-111.389" my="104.673" name="Kragen" seamAllowance="true" united="false" version="2" width="1">
+                <data fontSize="42" height="3.0147" letter="KRA" mx="735.074" my="-336.158" rotation="0" visible="true" width="10.3374"/>
+                <patternInfo fontSize="53" height="3.86708" mx="756.137" my="-211.428" rotation="0" visible="true" width="7.78025"/>
+                <grainline arrows="0" length="8" mx="1333.49" my="-53.7009" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="431" type="NodePoint"/>
+                    <node idObject="432" reverse="0" type="NodeSplinePath"/>
+                    <node idObject="433" type="NodePoint"/>
+                    <node idObject="434" type="NodePoint"/>
+                    <node idObject="435" reverse="0" type="NodeSpline"/>
+                    <node idObject="436" type="NodePoint"/>
+                    <node idObject="437" type="NodeSpline"/>
+                    <node idObject="438" type="NodePoint"/>
+                    <node idObject="439" type="NodePoint"/>
+                    <node idObject="440" type="NodeSplinePath"/>
+                </nodes>
+            </detail>
+            <detail forbidFlipping="false" hideMainPath="false" id="465" inLayout="true" mx="-49.8754" my="140.38" name="Kapuze Streifen" seamAllowance="true" united="false" version="2" width="1">
+                <data fontSize="32" height="2.7502" letter="KPS" mx="1059.04" my="-1750.89" rotation="0" visible="true" width="6.80749"/>
+                <patternInfo fontSize="46" height="3.30708" mx="1059.04" my="-1639.65" rotation="0" visible="true" width="6.80749"/>
+                <grainline arrows="0" length="40" mx="1185.33" my="-12.0272" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="459" type="NodePoint"/>
+                    <node idObject="460" type="NodeSplinePath"/>
+                    <node idObject="461" reverse="1" type="NodeSplinePath"/>
+                    <node idObject="462" type="NodePoint"/>
+                    <node idObject="463" type="NodePoint"/>
+                    <node idObject="464" type="NodePoint"/>
+                </nodes>
+            </detail>
+            <detail forbidFlipping="false" hideMainPath="false" id="473" inLayout="true" mx="-60.1632" my="122.447" name="Kapuze" seamAllowance="true" united="false" version="2" width="1">
+                <data fontSize="82" height="5.85283" letter="KPZ" mx="601.321" my="-926.091" rotation="0" visible="true" width="8.63724"/>
+                <patternInfo fontSize="54" height="3.86397" mx="619.362" my="-703.588" rotation="0" visible="true" width="8.23947"/>
+                <grainline arrows="0" length="18.6455" mx="515.972" my="-139.125" rotation="90" visible="true"/>
+                <nodes>
+                    <node idObject="466" type="NodePoint"/>
+                    <node idObject="467" reverse="0" type="NodeSplinePath"/>
+                    <node idObject="468" type="NodePoint"/>
+                    <node idObject="469" type="NodePoint"/>
+                    <node idObject="470" reverse="0" type="NodeSpline"/>
+                    <node idObject="471" type="NodePoint"/>
+                    <node idObject="472" reverse="0" type="NodeSpline"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>
