@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-1003-V1-WB">
+        <calculation>
+            <point id="52" mx=".1" my=".1" name="C" type="single" x=".1" y=".1"/>
+            <point angle="90" basePoint="52" id="53" length="4.125" lineColor="black" mx=".1" my=".1" name="C1" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="53" id="54" length="waist_circ+8" lineColor="black" mx=".1" my=".1" name="C2" type="endLine" typeLine="hair"/>
+            <point firstPoint="54" id="55" mx=".1" my=".1" name="C3" secondPoint="52" type="pointOfIntersection"/>
+            <line firstPoint="52" id="56" lineColor="black" secondPoint="55" typeLine="hair"/>
+            <line firstPoint="54" id="57" lineColor="black" secondPoint="55" typeLine="hair"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>

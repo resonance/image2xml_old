@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-1003-BK">
+        <calculation>
+            <point id="34" mx=".1" my=".1" name="B" type="single" x=".1" y=".1"/>
+            <point angle="270" basePoint="34" id="35" length="height_waist_side-height_calf-0.75" lineColor="black" mx=".1" my=".1" name="B1" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="34" id="36" length="hip_arc_half_b-1.375" lineColor="black" mx=".1" my=".1" name="B2" type="endLine" typeLine="hair"/>
+            <point firstPoint="36" id="37" mx=".1" my=".1" name="B3" secondPoint="35" type="pointOfIntersection"/>
+            <point firstPoint="34" id="38" length="waist_to_hip_b" lineColor="black" mx=".1" my=".1" name="B4" secondPoint="35" type="alongLine" typeLine="none"/>
+            <line firstPoint="36" id="39" lineColor="black" secondPoint="37" typeLine="hair"/>
+            <line firstPoint="37" id="40" lineColor="black" secondPoint="35" typeLine="hair"/>
+            <point firstPoint="37" id="41" mx=".1" my=".1" name="B5" secondPoint="38" type="pointOfIntersection"/>
+            <line firstPoint="41" id="42" lineColor="black" secondPoint="38" typeLine="hair"/>
+            <point firstPoint="41" id="44" length="hip_arc_half_b-1.375+0.5" lineColor="black" mx=".1" my=".1" name="B6" secondPoint="38" type="alongLine" typeLine="none"/>
+            <point firstPoint="44" id="45" mx=".1" my=".1" name="B7" secondPoint="35" type="pointOfIntersection"/>
+            <line firstPoint="44" id="46" lineColor="black" secondPoint="45" typeLine="hair"/>
+            <line firstPoint="45" id="47" lineColor="black" secondPoint="35" typeLine="hair"/>
+            <spline angle1="270" angle2="90.8644" color="black" id="48" length1="0.438921" length2="3.16953" point1="34" point4="44" type="simpleInteractive"/>
+            <point firstPoint="37" id="49" length="height_waist_side-height_calf-0.75+0.125" lineColor="black" mx=".1" my=".1" name="B8" secondPoint="36" type="alongLine" typeLine="none"/>
+            <point firstPoint="34" id="50" mx=".1" my=".1" name="B9" secondPoint="49" type="pointOfIntersection"/>
+            <line firstPoint="49" id="51" lineColor="black" secondPoint="50" typeLine="hair"/>
+            <line firstPoint="36" id="52" lineColor="black" secondPoint="49" typeLine="hair"/>
+            <point firstPoint="50" id="53" length="waist_arc_half_b" lineColor="black" mx=".1" my=".1" name="B10" secondPoint="49" type="alongLine" typeLine="none"/>
+            <spline angle1="90" angle2="254.896" color="black" id="54" length1="4.66889" length2="2.02241" point1="41" point4="53" type="simpleInteractive"/>
+            <point firstPoint="50" id="55" length="waist_arc_half_b-3.5" lineColor="black" mx=".1" my=".1" name="B11" secondPoint="53" type="alongLine" typeLine="none"/>
+            <point firstPoint="50" id="56" length="waist_arc_half_b-3.5+1.25" lineColor="black" mx=".1" my=".1" name="B12" secondPoint="53" type="alongLine" typeLine="none"/>
+            <point firstPoint="50" id="57" length="waist_arc_half_b-3.5+0.625" lineColor="black" mx=".1" my=".1" name="B13" secondPoint="53" type="alongLine" typeLine="none"/>
+            <point angle="270" basePoint="57" id="58" length="4.125" lineColor="black" mx=".1" my=".1" name="B14" type="endLine" typeLine="hair"/>
+            <line firstPoint="58" id="59" lineColor="black" secondPoint="55" typeLine="hair"/>
+            <line firstPoint="56" id="60" lineColor="black" secondPoint="58" typeLine="hair"/>
+            <spline angle1="354.54" angle2="180" color="black" id="61" length1="0.72843" length2="0.671353" point1="55" point4="34" type="simpleInteractive"/>
+            <spline angle1="356.716" angle2="183.186" color="black" id="62" length1="0.869285" length2="0.899343" point1="53" point4="56" type="simpleInteractive"/>
+            <point id="103" length="2" mx=".1" my=".1" name="B15" spline="48" type="cutSpline"/>
+            <point firstPoint="55" id="104" length="2" lineColor="black" mx=".1" my=".1" name="B16" secondPoint="58" type="alongLine" typeLine="none"/>
+            <point firstPoint="56" id="105" length="2" lineColor="black" mx=".1" my=".1" name="B17" secondPoint="58" type="alongLine" typeLine="none"/>
+            <point id="106" length="6.75" mx=".1" my=".1" name="B18" spline="54" type="cutSpline"/>
+            <spline angle1="182.719" angle2="355.885" color="black" id="107" length1="1.26029" length2="1.40204" point1="105" point4="106" type="simpleInteractive"/>
+            <spline angle1="180" angle2="351.407" color="black" id="108" length1="0.803252" length2="1.23651" point1="103" point4="104" type="simpleInteractive"/>
+            <point id="123" length="7.5" mx=".1" my=".1" name="B19" spline="48" type="cutSpline"/>
+            <point id="124" length="2.75" mx=".1" my=".1" name="B20" spline="61" type="cutSpline"/>
+            <point angle="180" basePoint="123" id="125" length="0.25" lineColor="black" mx=".1" my=".1" name="B21" type="endLine" typeLine="hair"/>
+            <spline angle1="90" angle2="270" color="black" id="126" length1="0.858611" length2="0.87272" point1="125" point4="124" type="simpleInteractive"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>

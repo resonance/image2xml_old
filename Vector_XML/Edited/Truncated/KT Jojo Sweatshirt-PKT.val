@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-3014-V2-PKT">
+        <calculation>
+            <point id="107" mx=".1" my=".1" name="E" type="single" x=".1" y=".1"/>
+            <point angle="90" basePoint="107" id="108" length="5.875" lineColor="black" mx=".1" my=".1" name="E1" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="108" id="109" length="5.25/2" lineColor="black" mx=".1" my=".1" name="E2" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="108" id="110" length="5.25/2" lineColor="black" mx=".1" my=".1" name="E3" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="110" id="111" length="4.625" lineColor="black" mx=".1" my=".1" name="E4" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="109" id="112" length="4.625" lineColor="black" mx=".1" my=".1" name="E5" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="107" id="113" length="1.5" lineColor="black" mx=".1" my=".1" name="E6" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="107" id="114" length="1.5" lineColor="black" mx=".1" my=".1" name="E7" type="endLine" typeLine="hair"/>
+            <spline angle1="180" angle2="270" color="black" id="115" length1="0.858556" length2="0.87886" point1="114" point4="111" type="simpleInteractive"/>
+            <spline angle1="270" angle2="0" color="black" id="116" length1="0.90028" length2="0.872586" point1="112" point4="113" type="simpleInteractive"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-3014-V2-BK">
+        <calculation>
+            <point id="21" mx=".1" my=".1" name="B" type="single" x=".1" y=".1"/>
+            <point angle="90" basePoint="21" id="22" length="neck_side_to_waist_b+3.5" lineColor="black" mx=".1" my=".1" name="B1" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="22" id="23" length="(shoulder_tip_to_shoulder_tip_b/2)+2.25" lineColor="black" mx=".1" my=".1" name="B2" type="endLine" typeLine="hair"/>
+            <point firstPoint="21" id="24" length="neck_back_to_waist_b+3.125" lineColor="black" mx=".1" my=".1" name="B3" secondPoint="22" type="alongLine" typeLine="none"/>
+            <point firstPoint="22" id="25" length="(neck_width/2)+1.5" lineColor="black" mx=".1" my=".1" name="B4" secondPoint="23" type="alongLine" typeLine="none"/>
+            <spline angle1="294.212" angle2="180" color="black" id="26" length1="1.04865" length2="3.07339" point1="25" point4="24" type="simpleInteractive"/>
+            <point firstPoint="23" id="27" mx=".1" my=".1" name="B5" secondPoint="21" type="pointOfIntersection"/>
+            <line firstPoint="23" id="28" lineColor="black" secondPoint="27" typeLine="hair"/>
+            <line firstPoint="21" id="29" lineColor="black" secondPoint="27" typeLine="hair"/>
+            <point center="25" firstPoint="23" id="30" mx=".1" my=".1" name="B6" radius="shoulder_length+2.25" secondPoint="27" type="pointOfContact"/>
+            <spline angle1="34.7159" angle2="190.949" color="black" id="31" length1="1.25863" length2="3.03491" point1="30" point4="25" type="simpleInteractive"/>
+            <point firstPoint="24" id="32" length="neck_back_to_bust_b+2.25" lineColor="black" mx=".1" my=".1" name="B7" secondPoint="21" type="alongLine" typeLine="none"/>
+            <point angle="180" basePoint="32" id="33" length="bust_arc_half_b+1.375" lineColor="black" mx=".1" my=".1" name="B8" type="endLine" typeLine="hair"/>
+            <point firstPoint="24" id="34" length="neck_back_to_highbust_b+0.375" lineColor="black" mx=".1" my=".1" name="B9" secondPoint="32" type="alongLine" typeLine="none"/>
+            <point angle="180" basePoint="34" id="35" length="highbust_arc_half_b-0.25" lineColor="black" mx=".1" my=".1" name="B10" type="endLine" typeLine="hair"/>
+            <spline angle1="0" angle2="281.489" color="black" id="36" length1="1.92412" length2="1.04935" point1="33" point4="35" type="simpleInteractive"/>
+            <spline angle1="98.1652" angle2="309.232" color="black" id="37" length1="2.26369" length2="2.41208" point1="35" point4="30" type="simpleInteractive"/>
+            <point angle="180" basePoint="21" id="38" length="highhip_arc_half_b+1.125" lineColor="black" mx=".1" my=".1" name="B11" type="endLine" typeLine="hair"/>
+            <line firstPoint="33" id="39" lineColor="black" secondPoint="38" typeLine="hair"/>
+            <point firstPoint="38" id="40" length="0.5" lineColor="black" mx=".1" my=".1" name="B12" secondPoint="33" type="alongLine" typeLine="none"/>
+            <spline angle1="180" angle2="352.918" color="black" id="41" length1="3.60725" length2="4.70179" point1="21" point4="40" type="simpleInteractive"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>

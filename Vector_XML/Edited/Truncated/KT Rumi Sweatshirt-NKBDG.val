@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-3008-V3-NKBDG">
+        <calculation>
+            <point id="139" mx=".1" my=".1" name="F" type="single" x=".1" y=".1"/>
+            <point angle="270" basePoint="139" id="140" length="1.5" lineColor="black" mx=".1" my=".1" name="F1" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="139" id="141" length="shoulder_tip_to_shoulder_tip_b+4" lineColor="black" mx=".1" my=".1" name="F2" type="endLine" typeLine="hair"/>
+            <point firstPoint="141" id="142" mx=".1" my=".1" name="F3" secondPoint="140" type="pointOfIntersection"/>
+            <line firstPoint="140" id="143" lineColor="black" secondPoint="142" typeLine="hair"/>
+            <line firstPoint="141" id="144" lineColor="black" secondPoint="142" typeLine="hair"/>
+        </calculation>
+        <modeling/>
+        <details/>
+    </draw>
+</pattern>

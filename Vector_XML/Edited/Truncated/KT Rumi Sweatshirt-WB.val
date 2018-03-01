@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-3008-V3-WB">
+        <calculation>
+            <point id="109" mx=".1" my=".1" name="D" type="single" x=".1" y=".1"/>
+            <point angle="270" basePoint="109" id="110" length="5" lineColor="black" mx=".1" my=".1" name="D1" type="endLine" typeLine="hair"/>
+            <point firstPoint="109" id="111" length="2.5" lineColor="black" mx=".1" my=".1" name="D2" secondPoint="110" type="alongLine" typeLine="none"/>
+            <point angle="0" basePoint="109" id="112" length="hip_circ-3" lineColor="black" mx=".1" my=".1" name="D3" type="endLine" typeLine="hair"/>
+            <point firstPoint="112" id="113" mx=".1" my=".1" name="D4" secondPoint="110" type="pointOfIntersection"/>
+            <point firstPoint="112" id="114" mx=".1" my=".1" name="D5" secondPoint="111" type="pointOfIntersection"/>
+            <line firstPoint="112" id="115" lineColor="black" secondPoint="113" typeLine="hair"/>
+            <line firstPoint="113" id="116" lineColor="black" secondPoint="110" typeLine="hair"/>
+            <line firstPoint="111" id="117" lineColor="black" secondPoint="114" typeLine="hair"/>
+        </calculation>
+        <modeling/>
+        <details/>
+        <groups/>
+    </draw>
+</pattern>
