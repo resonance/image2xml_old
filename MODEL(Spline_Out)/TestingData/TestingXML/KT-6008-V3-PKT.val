@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-6008-V3-PKT">
+        <calculation>
+            <point id="1" mx="0.0520833" my="0.104167" name="A" type="single" x="0.3125" y="0.416667"/>
+            <point angle="270" basePoint="1" id="2" length="5.875" lineColor="black" mx="0.0520833" my="0.104167" name="A1" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="1" id="3" length="2.625" lineColor="black" mx="0.0520833" my="0.104167" name="A2" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="1" id="4" length="2.625" lineColor="black" mx="0.0520833" my="0.104167" name="A3" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="2" id="5" length="1.5" lineColor="black" mx="0.0520833" my="0.104167" name="A4" type="endLine" typeLine="hair"/>
+            <point angle="180" basePoint="2" id="6" length="1.5" lineColor="black" mx="0.0520833" my="0.104167" name="A5" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="3" id="7" length="4.625" lineColor="black" mx="0.0520833" my="0.104167" name="A6" type="endLine" typeLine="hair"/>
+            <point angle="270" basePoint="4" id="8" length="4.625" lineColor="black" mx="0.0520833" my="0.104167" name="A7" type="endLine" typeLine="hair"/>
+            <spline angle1="180" angle2="270" color="black" id="9" length1="0.285901" length2="1.16449" point1="6" point4="7" type="simpleInteractive"/>
+            <spline angle1="270" angle2="0" color="black" id="10" length1="1.12741" length2="0.471771" point1="8" point4="5" type="simpleInteractive"/>
+        </calculation>
+        <modeling>
+            <point id="11" idObject="3" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="12" idObject="4" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="13" idObject="8" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <spline id="14" idObject="10" inUse="true" type="modelingSpline"/>
+            <point id="15" idObject="5" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="16" idObject="6" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <spline id="17" idObject="9" inUse="true" type="modelingSpline"/>
+            <point id="18" idObject="7" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="20" idObject="3" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="21" idObject="1" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="22" idObject="4" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="23" idObject="8" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+            <spline id="24" idObject="10" inUse="false" type="modelingSpline"/>
+            <point id="25" idObject="5" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="26" idObject="2" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="27" idObject="6" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+            <spline id="28" idObject="9" inUse="false" type="modelingSpline"/>
+            <point id="29" idObject="7" inUse="false" mx="0.0520833" my="0.104167" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" id="19" inLayout="true" mx="-0.281253" my="0.260416" name="Detail" seamAllowance="true" united="false" version="2" width="0.375">
+                <data fontSize="0" height="1" letter="PKT" mx="0" my="0" rotation="0" visible="true" width="1"/>
+                <patternInfo fontSize="0" height="2" mx="0" my="0" rotation="0" visible="true" width="2"/>
+                <grainline arrows="0" length="90" mx="0" my="0" rotation="1" visible="false"/>
+                <nodes>
+                    <node idObject="11" type="NodePoint"/>
+                    <node idObject="12" type="NodePoint"/>
+                    <node idObject="13" type="NodePoint"/>
+                    <node idObject="14" reverse="0" type="NodeSpline"/>
+                    <node idObject="15" type="NodePoint"/>
+                    <node idObject="16" type="NodePoint"/>
+                    <node idObject="17" reverse="0" type="NodeSpline"/>
+                    <node idObject="18" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>

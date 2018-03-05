@@ -1,0 +1,226 @@
+version="1.0" version="1.0" encoding="UTF-8"?>
+<pattern>
+<!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+<version>0.4.8</version>
+<unit>inch</unit>
+<author/>
+<description/>
+<notes/>
+<measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+<increments/>
+<draw
+<calculation>
+<point id="1" mx=".1" my=".1" type="single" x=".1" y=".1"/>
+<point angle="90" basePoint="1" id="2" length="neck_side_to_waist_f+4" lineColor="black" mx=".1" my=".1" type="endLine" typeLine="hair"/>
+<point angle="180" basePoint="2" id="3" length="shoulder_tip_to_shoulder_tip_half_f+2.75" lineColor="black" mx=".1" my=".1" type="endLine" typeLine="hair"/>
+<point firstPoint="3" id="4" mx=".1" my=".1" secondPoint="1" type="pointOfIntersection"/>
+<point firstPoint="1" id="5" length="neck_front_to_waist_f+4" lineColor="black" mx=".1" my=".1" secondPoint="2" type="alongLine" typeLine="none"/>
+<point firstPoint="2" id="6" length="(neck_width/2)+1.25" lineColor="black" mx=".1" my=".1" secondPoint="3" type="alongLine" typeLine="none"/>
+Spline18
+<line firstPoint="3" id="8" lineColor="black" secondPoint="4" typeLine="hair"/>
+<point center="6" firstPoint="3" id="9" mx=".1" my=".1" radius="shoulder_length+2.25" secondPoint="4" type="pointOfContact"/>
+Spline21
+<point firstPoint="5" id="11" length="neck_front_to_bust_f+2" lineColor="black" mx=".1" my=".1" secondPoint="1" type="alongLine" typeLine="none"/>
+<point angle="180" basePoint="11" id="12" length="bust_arc_half_f+0.875" lineColor="black" mx=".1" my=".1" type="endLine" typeLine="hair"/>
+<point firstPoint="11" id="13" length="neck_front_to_highbust_f-1.25" lineColor="black" mx=".1" my=".1" secondPoint="5" type="alongLine" typeLine="none"/>
+<point angle="180" basePoint="13" id="14" length="highbust_arc_half_f-1.25" lineColor="black" mx=".1" my=".1" type="endLine" typeLine="hair"/>
+Spline26
+Spline27
+<point angle="180" basePoint="1" id="17" length="hip_arc_half_f+0.25" lineColor="black" mx=".1" my=".1" type="endLine" typeLine="hair"/>
+<line firstPoint="12" id="18" lineColor="black" secondPoint="17" typeLine="hair"/>
+<point firstPoint="17" id="19" length="0.5" lineColor="black" mx=".1" my=".1" secondPoint="12" type="alongLine" typeLine="none"/>
+Spline31
+</calculation>
+<modeling>
+<point id="42" idObject="9" inUse="true" mx=".1" my=".1" type="modeling"/>
+Spline35
+<point id="44" idObject="6" inUse="true" mx=".1" my=".1" type="modeling"/>
+Spline37
+<point id="46" idObject="5" inUse="true" mx=".1" my=".1" type="modeling"/>
+<point id="47" idObject="1" inUse="true" mx=".1" my=".1" type="modeling"/>
+Spline40
+<point id="49" idObject="19" inUse="true" mx=".1" my=".1" type="modeling"/>
+<point id="50" idObject="12" inUse="true" mx=".1" my=".1" type="modeling"/>
+Spline43
+<point id="52" idObject="14" inUse="true" mx=".1" my=".1" type="modeling"/>
+Spline45
+</modeling>
+<details>
+<detail forbidFlipping="false" id="54" inLayout="true" mx=".1" my=".1" seamAllowance="true" united="false" version="2" width="0.393701">
+<data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="43" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="45" reverse="0" type="NodeSpline"/>
+<node idObject="46" type="NodePoint"/>
+<node idObject="47" type="NodePoint"/>
+<node idObject="48" reverse="0" type="NodeSpline"/>
+<node idObject="19" type="NodePoint"/>
+<node idObject="50" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="53" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+</draw>
+</pattern>
+</draw>
+</pattern>
+<patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node angle="180" basePoint="1" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+<patternInfo
+</pattern>
+</draw> fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="43" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="45" reverse="0" type="NodeSpline"/>
+<node idObject="46" type="NodePoint"/>
+<node idObject="47" type="NodePoint"/>
+<node idObject="53" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+</draw>
+</pattern>
+</draw>
+</pattern>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<grainline arrows="0" height="1" mx=".1" my=".1" <node visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+<node idObject="52" type="NodePoint"/>
+<node idObject="45" reverse="0" type="NodeSpline"/>
+<node idObject="46" type="NodePoint"/>
+<node idObject="47" type="NodePoint"/>
+<node idObject="53" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+<patternInfo
+</pattern>
+<patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" fontSize="0" width="1"/>
+<grainline arrows="0" length="90" mx=".1" my=".1" secondPoint="1" visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="43" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="45" reverse="0" type="NodeSpline"/>
+<node idObject="46" type="NodePoint"/>
+<node idObject="53" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+<patternInfo
+</pattern>
+</draw>
+</pattern>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="43" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="45" reverse="0" type="NodeSpline"/>
+<node idObject="46" type="NodePoint"/>
+<node idObject="47" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+<patternInfo
+</pattern>
+</draw> fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+<node idObject="52" type="NodePoint"/>
+<node idObject="53" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+</draw>
+</pattern>
+</draw>
+</pattern>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="43" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="45" reverse="0" type="NodeSpline"/>
+<node id="1" type="NodePoint"/>
+<node idObject="53" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+<node idObject="52" type="NodePoint"/>
+<node idObject="53" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+<patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node idObject="42" type="NodePoint"/>
+<node idObject="43" reverse="0" type="NodeSpline"/>
+<node idObject="44" type="NodePoint"/>
+<node idObject="45" reverse="0" type="NodeSpline"/>
+<node idObject="46" type="NodePoint"/>
+<node idObject="53" type="NodePoint"/>
+<node idObject="51" reverse="0" type="NodeSpline"/>
+<node idObject="52" type="NodePoint"/>
+<node idObject="53" reverse="0" type="NodeSpline"/>
+</nodes>
+</detail>
+</details>
+<groups/>
+</draw>
+</pattern>
+</draw>
+</pattern>
+</draw> fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/>
+<grainline arrows="0" length="90" mx=".1" my=".1" rotation="1" visible="false"/>
+<nodes>
+<node angle="180" basePoint="1" type="NodePoint"/>
+my=".1" type="modeling"/>
+<line </modeling>
+<data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false"

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-3012-V2-NKBND">
+        <calculation>
+            <point id="1" mx="0.0520833" my="0.104167" name="A" type="single" x="0.3125" y="0.416667"/>
+            <point angle="270" basePoint="1" id="2" length="11" lineColor="black" mx="0.0520833" my="0.104167" name="A1" type="endLine" typeLine="hair"/>
+            <point angle="0" basePoint="1" id="3" length="neck_circ+2" lineColor="black" mx="0.0520833" my="0.104167" name="A2" type="endLine" typeLine="hair"/>
+            <point firstPoint="3" id="4" mx="0.0656654" my="0.104167" name="A3" secondPoint="2" type="pointOfIntersection"/>
+            <line firstPoint="2" id="5" lineColor="black" secondPoint="4" typeLine="hair"/>
+            <line firstPoint="3" id="6" lineColor="black" secondPoint="4" typeLine="hair"/>
+        </calculation>
+        <modeling>
+            <point id="7" idObject="1" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="8" idObject="3" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="9" idObject="4" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="10" idObject="2" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" id="11" inLayout="true" mx="0" my="0" name="Detail" seamAllowance="false" united="false" version="2" width="0.393701">
+                <data fontSize="0" height="1" letter="" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="90" mx="0" my="0" rotation="1" visible="false"/>
+                <nodes>
+                    <node idObject="7" type="NodePoint"/>
+                    <node idObject="8" type="NodePoint"/>
+                    <node idObject="9" type="NodePoint"/>
+                    <node idObject="10" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
+        <groups/>
+    </draw>
+</pattern>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern>
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).-->
+    <version>0.4.8</version>
+    <unit>inch</unit>
+    <author/>
+    <description/>
+    <notes/>
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements>
+    <increments/>
+    <draw name="KT-6008-V3-BK">
+        <calculation>
+            <point id="1" mx="0.0520833" my="0.104167" name="A" type="single" x="0.3125" y="0.416667"/>
+            <point angle="270" basePoint="1" id="2" length="neck_side_to_waist_b" lineColor="black" mx="0.0520833" my="0.104167" name="A1" type="endLine" typeLine="hair"/>
+            <point firstPoint="1" id="3" length="neck_side_to_waist_b+14.5" lineColor="black" mx="0.0520833" my="0.104167" name="A2" secondPoint="2" type="alongLine" typeLine="none"/>
+            <line firstPoint="2" id="4" lineColor="black" secondPoint="3" typeLine="hair"/>
+            <point firstPoint="2" id="5" length="neck_back_to_waist_b" lineColor="black" mx="0.0520833" my="0.104167" name="A3" secondPoint="1" type="alongLine" typeLine="none"/>
+            <point angle="180" basePoint="1" id="6" length="shoulder_tip_to_shoulder_tip_half_b+2.25" lineColor="black" mx="0.0520833" my="0.104167" name="A4" type="endLine" typeLine="hair"/>
+            <point firstPoint="6" id="7" mx="0.0520833" my="0.104167" name="A5" secondPoint="3" type="pointOfIntersection"/>
+            <line firstPoint="6" id="8" lineColor="black" secondPoint="7" typeLine="hair"/>
+            <line firstPoint="7" id="9" lineColor="black" secondPoint="3" typeLine="hair"/>
+            <point firstPoint="1" id="10" length="neck_width/2+1.5" lineColor="black" mx="0.0520833" my="0.104167" name="A6" secondPoint="6" type="alongLine" typeLine="none"/>
+            <spline angle1="286.116" angle2="180" color="black" id="11" length1="1.0289" length2="2.50177" point1="10" point4="5" type="simpleInteractive"/>
+            <point center="10" firstPoint="6" id="12" mx="0.0520833" my="0.104167" name="A7" radius="shoulder_length+2.25" secondPoint="7" type="pointOfContact"/>
+            <spline angle1="44.0172" angle2="188.678" color="black" id="13" length1="0.809741" length2="2.2714" point1="12" point4="10" type="simpleInteractive"/>
+            <point firstPoint="5" id="14" length="neck_back_to_bust_b+2.25" lineColor="black" mx="0.0520833" my="0.104167" name="A8" secondPoint="2" type="alongLine" typeLine="none"/>
+            <point angle="180" basePoint="14" id="15" length="bust_arc_half_b+1.375" lineColor="black" mx="0.0520833" my="0.104167" name="A9" type="endLine" typeLine="hair"/>
+            <point firstPoint="5" id="16" length="neck_back_to_highbust_b" lineColor="black" mx="0.0520833" my="0.104167" name="A10" secondPoint="14" type="alongLine" typeLine="none"/>
+            <point angle="180" basePoint="16" id="17" length="highbust_arc_half_b-0.25" lineColor="black" mx="0.0520833" my="0.104167" name="A11" type="endLine" typeLine="hair"/>
+            <spline color="black" id="18" type="pathInteractive">
+                <pathPoint angle1="180" angle2="0" length1="0" length2="2.29989" pSpline="15"/>
+                <pathPoint angle1="277.477" angle2="97.4766" length1="0.475896" length2="1.18494" pSpline="17"/>
+                <pathPoint angle1="316.688" angle2="136.688" length1="1.90559" length2="0.572772" pSpline="12"/>
+            </spline>
+            <point firstPoint="3" id="19" length="hip_arc_half_b+0.375" lineColor="black" mx="0.0520833" my="0.104167" name="A12" secondPoint="7" type="alongLine" typeLine="none"/>
+            <line firstPoint="15" id="20" lineColor="black" secondPoint="19" typeLine="hair"/>
+            <point firstPoint="19" id="21" length="0.5" lineColor="black" mx="0.0520833" my="0.104167" name="A13" secondPoint="15" type="alongLine" typeLine="none"/>
+            <spline angle1="180" angle2="353.52" color="black" id="22" length1="4.18091" length2="3.48993" point1="3" point4="21" type="simpleInteractive"/>
+        </calculation>
+        <modeling>
+            <point id="23" idObject="12" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <spline id="24" idObject="13" inUse="true" type="modelingSpline"/>
+            <point id="25" idObject="10" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <spline id="26" idObject="11" inUse="true" type="modelingSpline"/>
+            <point id="27" idObject="5" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="28" idObject="3" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="29" idObject="21" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <point id="30" idObject="15" inUse="true" mx="0.0520833" my="0.104167" type="modeling"/>
+            <spline id="31" idObject="18" inUse="true" type="modelingPath"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" id="32" inLayout="true" mx="-0.332274" my="7.04067e-9" name="Detail" seamAllowance="true" united="false" version="2" width="0.375">
+                <data fontSize="0" height="1" letter="" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="90" mx="0" my="0" rotation="1" visible="false"/>
+                <nodes>
+                    <node idObject="23" type="NodePoint"/>
+                    <node idObject="24" reverse="0" type="NodeSpline"/>
+                    <node idObject="25" type="NodePoint"/>
+                    <node idObject="26" reverse="0" type="NodeSpline"/>
+                    <node idObject="27" type="NodePoint"/>
+                    <node idObject="28" type="NodePoint"/>
+                    <node idObject="29" type="NodePoint"/>
+                    <node idObject="30" type="NodePoint"/>
+                    <node idObject="31" reverse="0" type="NodeSplinePath"/>
+                </nodes>
+            </detail>
+        </details>
+    </draw>
+</pattern>
