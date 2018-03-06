@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pattern> 
+    <version>0.4.8</version> 
+    <unit>inch</unit> 
+    <author/> 
+    <description/> 
+    <notes/> 
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements> 
+    <increments/> 
+    <draw name="KT-3008-V3-WB"> 
+        <calculation> 
+            <point id="109" mx=".1" my=".1" name="D" type="single" x=".1" y=".1"/> 
+            <point angle="256" basePoint="109" id="110" length="neck_front_to_waist_side" lineColor="black" mx=".1" my=".1" name="D1" type="endLine" typeLine="hair"/> 
+            <point firstPoint="109" id="111" length="armscye_circ" lineColor="black" mx=".1" my=".1" name="D2" secondPoint="110" type="alongLine" typeLine="none"/> 
+            <point angle="288" basePoint="109" id="112" length="arm_elbow_circ" lineColor="black" mx=".1" my=".1" name="D3" type="endLine" typeLine="hair"/> 
+            <point firstPoint="112" id="113" mx=".1" my=".1" name="D4" secondPoint="110" type="pointOfIntersection"/> 
+            <point firstPoint="112" id="114" mx=".1" my=".1" name="D5" secondPoint="111" type="pointOfIntersection"/> 
+            <line firstPoint="112" id="115" lineColor="black" secondPoint="113" typeLine="hair"/> 
+            <line firstPoint="113" id="116" lineColor="black" secondPoint="110" typeLine="hair"/> 
+            <line firstPoint="111" id="117" lineColor="black" secondPoint="114" typeLine="hair"/> 
+        </calculation> 
+        <modeling> 
+            <point id="118" idObject="109" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="119" idObject="112" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="120" idObject="113" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="121" idObject="110" inUse="true" mx=".1" my=".1" type="modeling"/> 
+        </modeling> 
+        <details> 
+            <detail forbidFlipping="false" id="122" inLayout="true" mx=".1" my=".1" name="Detail" seamAllowance="false" united="false" version="2" width="0.393701"> 
+                <data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <grainline arrows="0" length="leg_ankle_diag_circ" mx=".1" my=".1" rotation="1" visible="false"/> 
+                <nodes> 
+                    <node idObject="118" type="NodePoint"/> 
+                    <node idObject="119" type="NodePoint"/> 
+                    <node idObject="120" type="NodePoint"/> 
+                    <node idObject="121" type="NodePoint"/> 
+                </nodes> 
+            </detail> 
+        </details> 
+        <groups/> 
+    </draw> 
+</pattern> 

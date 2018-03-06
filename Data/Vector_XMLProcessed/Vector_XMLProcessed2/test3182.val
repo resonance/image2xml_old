@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pattern> 
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).--> 
+    <version>0.4.8</version> 
+    <unit>inch</unit> 
+    <author/> 
+    <description/> 
+    <notes/> 
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements> 
+    <increments/> 
+    <draw name="KT-1003-V1-PKT"> 
+        <calculation> 
+            <point id="42" mx=".1" my=".1" name="B" type="single" x=".1" y=".1"/> 
+            <point angle="119" basePoint="42" id="43" length="neck_side_to_highbust_b" lineColor="black" mx=".1" my=".1" name="B1" type="endLine" typeLine="hair"/> 
+            <point angle="14" basePoint="43" id="44" length="arm_upper_circ" lineColor="black" mx=".1" my=".1" name="B2" type="endLine" typeLine="hair"/> 
+            <point angle="222" basePoint="44" id="45" length="leg_waist_side_to_ankle" lineColor="black" mx=".1" my=".1" name="B3" type="endLine" typeLine="hair"/> 
+            <line firstPoint="42" id="46" lineColor="black" secondPoint="45" typeLine="hair"/> 
+        </calculation> 
+        <modeling> 
+            <point id="47" idObject="42" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="48" idObject="45" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="49" idObject="44" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="50" idObject="43" inUse="true" mx=".1" my=".1" type="modeling"/> 
+        </modeling> 
+        <details> 
+            <detail forbidFlipping="false" id="51" inLayout="true" mx=".1" my=".1" name="Detail" seamAllowance="true" united="false" version="2" width="0.5"> 
+                <data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <grainline arrows="0" length="leg_calf_circ" mx=".1" my=".1" rotation="1" visible="false"/> 
+                <nodes> 
+                    <node idObject="47" type="NodePoint"/> 
+                    <node idObject="48" type="NodePoint"/> 
+                    <node idObject="49" type="NodePoint"/> 
+                    <node idObject="50" type="NodePoint"/> 
+                </nodes> 
+            </detail> 
+        </details> 
+    </draw> 
+</pattern> 

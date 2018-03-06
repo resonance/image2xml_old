@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pattern> 
+    <version>0.4.8</version> 
+    <unit>inch</unit> 
+    <author/> 
+    <description/> 
+    <notes/> 
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements> 
+    <increments/> 
+    <draw name="KT-3008-V3-NKBDG"> 
+        <calculation> 
+            <point id="139" mx=".1" my=".1" name="F" type="single" x=".1" y=".1"/> 
+            <point angle="280" basePoint="139" id="140" length="neck_side_to_armpit_b" lineColor="black" mx=".1" my=".1" name="F1" type="endLine" typeLine="hair"/> 
+            <point angle="283" basePoint="139" id="141" length="neck_side_to_waist_f" lineColor="black" mx=".1" my=".1" name="F2" type="endLine" typeLine="hair"/> 
+            <point firstPoint="141" id="142" mx=".1" my=".1" name="F3" secondPoint="140" type="pointOfIntersection"/> 
+            <line firstPoint="140" id="143" lineColor="black" secondPoint="142" typeLine="hair"/> 
+            <line firstPoint="141" id="144" lineColor="black" secondPoint="142" typeLine="hair"/> 
+        </calculation> 
+        <modeling> 
+            <point id="145" idObject="139" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="146" idObject="141" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="147" idObject="142" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="148" idObject="140" inUse="true" mx=".1" my=".1" type="modeling"/> 
+        </modeling> 
+        <details> 
+            <detail forbidFlipping="false" id="149" inLayout="true" mx=".1" my=".1" name="Detail" seamAllowance="false" united="false" version="2" width="0.393701"> 
+                <data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <grainline arrows="0" length="neck_side_to_waist_f" mx=".1" my=".1" rotation="1" visible="false"/> 
+                <nodes> 
+                    <node idObject="145" type="NodePoint"/> 
+                    <node idObject="146" type="NodePoint"/> 
+                    <node idObject="147" type="NodePoint"/> 
+                    <node idObject="148" type="NodePoint"/> 
+                </nodes> 
+            </detail> 
+        </details> 
+    </draw> 
+</pattern> 

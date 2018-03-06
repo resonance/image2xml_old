@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pattern> 
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).--> 
+    <version>0.4.8</version> 
+    <unit>inch</unit> 
+    <author/> 
+    <description/> 
+    <notes/> 
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements> 
+    <increments/> 
+    <draw name="KT-3014-V2-FT"> 
+        <calculation> 
+            <point id="1" mx=".1" my=".1" name="A" type="single" x=".1" y=".1"/> 
+            <point angle="181" basePoint="1" id="2" length="indent_waist_back" lineColor="black" mx=".1" my=".1" name="A1" type="endLine" typeLine="hair"/> 
+            <point angle="201" basePoint="2" id="3" length="neck_front_to_bust_f" lineColor="black" mx=".1" my=".1" name="A2" type="endLine" typeLine="hair"/> 
+            <point firstPoint="3" id="4" mx=".1" my=".1" name="A3" secondPoint="1" type="pointOfIntersection"/> 
+            <point firstPoint="1" id="5" length="highhip_arc_b" lineColor="black" mx=".1" my=".1" name="A4" secondPoint="2" type="alongLine" typeLine="none"/> 
+            <point firstPoint="2" id="6" length="waist_to_highhip_f" lineColor="black" mx=".1" my=".1" name="A5" secondPoint="3" type="alongLine" typeLine="none"/> 
+            <spline angle1="8" angle2="344" color="black" id="7" length1="highbust_b_over_shoulder_to_highbust_f" length2="neck_side_to_armpit_f" point1="6" point4="5" type="simpleInteractive"/> 
+            <line firstPoint="3" id="8" lineColor="black" secondPoint="4" typeLine="hair"/> 
+            <point center="6" firstPoint="3" id="9" mx=".1" my=".1" name="A6" radius="rib_arc_b" secondPoint="4" type="pointOfContact"/> 
+            <spline angle1="25" angle2="65" color="black" id="10" length1="neck_arc_f" length2="bustpoint_to_lowbust" point1="9" point4="6" type="simpleInteractive"/> 
+            <point firstPoint="5" id="11" length="foot_width" lineColor="black" mx=".1" my=".1" name="A7" secondPoint="1" type="alongLine" typeLine="none"/> 
+            <point angle="345" basePoint="11" id="12" length="waist_circ" lineColor="black" mx=".1" my=".1" name="A8" type="endLine" typeLine="hair"/> 
+            <point firstPoint="11" id="13" length="neck_side_to_waist_b" lineColor="black" mx=".1" my=".1" name="A9" secondPoint="5" type="alongLine" typeLine="none"/> 
+            <point angle="3" basePoint="13" id="14" length="body_bust_circ" lineColor="black" mx=".1" my=".1" name="A10" type="endLine" typeLine="hair"/> 
+            <spline angle1="257" angle2="239" color="black" id="15" length1="width_bust" length2="height_calf" point1="12" point4="14" type="simpleInteractive"/> 
+            <spline angle1="89" angle2="27" color="black" id="16" length1="shoulder_tip_to_waist_front" length2="hip_arc_f" point1="14" point4="9" type="simpleInteractive"/> 
+            <point angle="150" basePoint="1" id="17" length="arm_armpit_to_elbow" lineColor="black" mx=".1" my=".1" name="A11" type="endLine" typeLine="hair"/> 
+            <line firstPoint="12" id="18" lineColor="black" secondPoint="17" typeLine="hair"/> 
+            <point firstPoint="17" id="19" length="leg_crotch_to_ankle" lineColor="black" mx=".1" my=".1" name="A12" secondPoint="12" type="alongLine" typeLine="none"/> 
+            <spline angle1="250" angle2="115" color="black" id="20" length1="neck_side_to_waist_scapula_b" length2="rise_length_f" point1="1" point4="19" type="simpleInteractive"/> 
+        </calculation> 
+        <modeling> 
+            <point id="42" idObject="9" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <spline id="43" idObject="10" inUse="true" type="modelingSpline"/> 
+            <point id="44" idObject="6" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <spline id="45" idObject="7" inUse="true" type="modelingSpline"/> 
+            <point id="46" idObject="5" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="47" idObject="1" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <spline id="48" idObject="20" inUse="true" type="modelingSpline"/> 
+            <point id="49" idObject="19" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="50" idObject="12" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <spline id="51" idObject="15" inUse="true" type="modelingSpline"/> 
+            <point id="52" idObject="14" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <spline id="53" idObject="16" inUse="true" type="modelingSpline"/> 
+        </modeling> 
+        <details> 
+            <detail forbidFlipping="false" id="54" inLayout="true" mx=".1" my=".1" name="Detail" seamAllowance="true" united="false" version="2" width="0.393701"> 
+                <data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <grainline arrows="0" length="head_depth" mx=".1" my=".1" rotation="1" visible="false"/> 
+                <nodes> 
+                    <node idObject="42" type="NodePoint"/> 
+                    <node idObject="43" reverse="0" type="NodeSpline"/> 
+                    <node idObject="44" type="NodePoint"/> 
+                    <node idObject="45" reverse="0" type="NodeSpline"/> 
+                    <node idObject="46" type="NodePoint"/> 
+                    <node idObject="47" type="NodePoint"/> 
+                    <node idObject="48" reverse="0" type="NodeSpline"/> 
+                    <node idObject="49" type="NodePoint"/> 
+                    <node idObject="50" type="NodePoint"/> 
+                    <node idObject="51" reverse="0" type="NodeSpline"/> 
+                    <node idObject="52" type="NodePoint"/> 
+                    <node idObject="53" reverse="0" type="NodeSpline"/> 
+                </nodes> 
+            </detail> 
+        </details> 
+        <groups/> 
+    </draw> 
+</pattern> 

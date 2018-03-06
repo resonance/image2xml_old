@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pattern> 
+    <version>0.4.8</version> 
+    <unit>inch</unit> 
+    <author/> 
+    <description/> 
+    <notes/> 
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements> 
+    <increments/> 
+    <draw name="KT-3008-V3-CUFF"> 
+        <calculation> 
+            <point id="93" mx=".1" my=".1" name="C" type="single" x=".1" y=".1"/> 
+            <point angle="150" basePoint="93" id="94" length="shoulder_center_to_highbust_f" lineColor="black" mx=".1" my=".1" name="C1" type="endLine" typeLine="hair"/> 
+            <point angle="193" basePoint="93" id="95" length="rib_arc_half_b" lineColor="black" mx=".1" my=".1" name="C2" type="endLine" typeLine="hair"/> 
+            <point firstPoint="95" id="96" mx=".1" my=".1" name="C3" secondPoint="94" type="pointOfIntersection"/> 
+            <line firstPoint="95" id="97" lineColor="black" secondPoint="96" typeLine="hair"/> 
+            <line firstPoint="94" id="98" lineColor="black" secondPoint="96" typeLine="hair"/> 
+            <point firstPoint="93" id="99" length="neck_back_to_armfold_front_to_neck_back" lineColor="black" mx=".1" my=".1" name="C4" secondPoint="94" type="alongLine" typeLine="none"/> 
+            <point firstPoint="96" id="100" mx=".1" my=".1" name="C5" secondPoint="99" type="pointOfIntersection"/> 
+            <line firstPoint="94" id="101" lineColor="black" secondPoint="99" typeLine="hair"/> 
+            <line firstPoint="99" id="102" lineColor="black" secondPoint="100" typeLine="hair"/> 
+            <line firstPoint="96" id="103" lineColor="black" secondPoint="100" typeLine="hair"/> 
+        </calculation> 
+        <modeling> 
+            <point id="104" idObject="93" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="105" idObject="95" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="106" idObject="100" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="107" idObject="99" inUse="true" mx=".1" my=".1" type="modeling"/> 
+        </modeling> 
+        <details> 
+            <detail forbidFlipping="false" id="108" inLayout="true" mx=".1" my=".1" name="Detail" seamAllowance="false" united="false" version="2" width="0.393701"> 
+                <data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <grainline arrows="0" length="height_neck_back_to_knee" mx=".1" my=".1" rotation="1" visible="false"/> 
+                <nodes> 
+                    <node idObject="104" type="NodePoint"/> 
+                    <node idObject="105" type="NodePoint"/> 
+                    <node idObject="106" type="NodePoint"/> 
+                    <node idObject="107" type="NodePoint"/> 
+                </nodes> 
+            </detail> 
+        </details> 
+        <groups/> 
+    </draw> 
+</pattern> 

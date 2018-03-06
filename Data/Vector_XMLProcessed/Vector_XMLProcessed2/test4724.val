@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pattern> 
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).--> 
+    <version>0.4.8</version> 
+    <unit>inch</unit> 
+    <author/> 
+    <description/> 
+    <notes/> 
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements> 
+    <increments/> 
+    <draw name="KT-1003-V1-WB"> 
+        <calculation> 
+            <point id="52" mx=".1" my=".1" name="C" type="single" x=".1" y=".1"/> 
+            <point angle="217" basePoint="52" id="53" length="neck_back_to_bust_front" lineColor="black" mx=".1" my=".1" name="C1" type="endLine" typeLine="hair"/> 
+            <point angle="14" basePoint="53" id="54" length="rise_length_b" lineColor="black" mx=".1" my=".1" name="C2" type="endLine" typeLine="hair"/> 
+            <point firstPoint="54" id="55" mx=".1" my=".1" name="C3" secondPoint="52" type="pointOfIntersection"/> 
+            <line firstPoint="52" id="56" lineColor="black" secondPoint="55" typeLine="hair"/> 
+            <line firstPoint="54" id="57" lineColor="black" secondPoint="55" typeLine="hair"/> 
+        </calculation> 
+        <modeling> 
+            <point id="58" idObject="52" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="59" idObject="53" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="60" idObject="54" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="61" idObject="55" inUse="true" mx=".1" my=".1" type="modeling"/> 
+        </modeling> 
+        <details> 
+            <detail forbidFlipping="false" id="62" inLayout="true" mx=".1" my=".1" name="Detail" seamAllowance="true" united="false" version="2" width="0.5"> 
+                <data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <grainline arrows="0" length="highhip_arc_b" mx=".1" my=".1" rotation="1" visible="false"/> 
+                <nodes> 
+                    <node idObject="58" type="NodePoint"/> 
+                    <node idObject="59" type="NodePoint"/> 
+                    <node idObject="60" type="NodePoint"/> 
+                    <node idObject="61" type="NodePoint"/> 
+                </nodes> 
+            </detail> 
+        </details> 
+        <groups/> 
+    </draw> 
+</pattern> 

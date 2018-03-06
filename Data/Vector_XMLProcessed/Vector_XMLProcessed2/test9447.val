@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<pattern> 
+    <!--Pattern created with Valentina (http://www.valentina-project.org/).--> 
+    <version>0.4.8</version> 
+    <unit>inch</unit> 
+    <author/> 
+    <description/> 
+    <notes/> 
+    <measurements>/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_Measurements/Tucker-Brianna.vit</measurements> 
+    <increments/> 
+    <draw name="KT-3014-V2-NKBND"> 
+        <calculation> 
+            <point id="96" mx=".1" my=".1" name="D" type="single" x=".1" y=".1"/> 
+            <point angle="210" basePoint="96" id="97" length="neck_front_to_bust_f" lineColor="black" mx=".1" my=".1" name="D1" type="endLine" typeLine="hair"/> 
+            <point angle="16" basePoint="97" id="98" length="hand_palm_width" lineColor="black" mx=".1" my=".1" name="D2" type="endLine" typeLine="hair"/> 
+            <point firstPoint="98" id="99" mx=".1" my=".1" name="D3" secondPoint="96" type="pointOfIntersection"/> 
+            <line firstPoint="96" id="100" lineColor="black" secondPoint="99" typeLine="hair"/> 
+            <line firstPoint="99" id="101" lineColor="black" secondPoint="98" typeLine="hair"/> 
+        </calculation> 
+        <modeling> 
+            <point id="102" idObject="97" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="103" idObject="98" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="104" idObject="99" inUse="true" mx=".1" my=".1" type="modeling"/> 
+            <point id="105" idObject="96" inUse="true" mx=".1" my=".1" type="modeling"/> 
+        </modeling> 
+        <details> 
+            <detail forbidFlipping="false" id="106" inLayout="true" mx=".1" my=".1" name="Detail" seamAllowance="true" united="false" version="2" width="0.393701"> 
+                <data fontSize="0" height="1" letter="" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <patternInfo fontSize="0" height="1" mx=".1" my=".1" rotation="0" visible="false" width="1"/> 
+                <grainline arrows="0" length="neck_back_to_armfold_front_to_highbust_back" mx=".1" my=".1" rotation="1" visible="false"/> 
+                <nodes> 
+                    <node idObject="102" type="NodePoint"/> 
+                    <node idObject="103" type="NodePoint"/> 
+                    <node idObject="104" type="NodePoint"/> 
+                    <node idObject="105" type="NodePoint"/> 
+                </nodes> 
+            </detail> 
+        </details> 
+    </draw> 
+</pattern> 

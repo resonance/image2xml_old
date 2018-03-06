@@ -8,12 +8,14 @@ import sys
 import os
 import argparse
 
-VARIABLE_TO_CHANGE = "name="
-VARIABLE_TO_INSERT = ""
-VARIABLE_TO_AVOID =  "name=\"KT \""
+replaceSpline = "NO"
 
-INPUT_DIR_NAME = "/Users/theodoreseem/Desktop/Teddy_XML/"
-OUTPUT_DIR_NAME = "/Users/theodoreseem/Desktop/Teddy_XML/Spline_Out/"
+VARIABLES_TO_CHANGE = ["mx=", "my=", "x=", "y="]
+VARIABLES_TO_INSERT = ["mx=\".1\"", "my=\".1\"", "x=\".1\"", "y=\".1\""]
+VARIABLE_TO_AVOID =  "blank"
+
+INPUT_DIR_NAME = "/Users/theodoreseem/ResonanceHub/image2XML/image2XML/Data/Vector_XML/"
+OUTPUT_DIR_NAME = "/Users/theodoreseem/ResonanceHub/image2XML/image2XML/Data/Vector_XMLProcessed/"
 
 #INPUT_DIR_NAME = "/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_XML/Edited/"
 #OUTPUT_DIR_NAME = "/Users/theodoreseem/ResonanceHub/image2XML/Full_XML_model/image2XML/Vector_XML/Edited/"
@@ -38,11 +40,14 @@ def replaceLine(line, outfile, counter, outputDict):
 def replaceFile(inputFile, outputFile):
     outputFileEditable = open(OUTPUT_DIR_NAME+outputFile, "w")
     inputFileEditable = open(INPUT_DIR_NAME+inputFile, "r")
+
+    #Ignore if not replacing Spline
     DictName = "/Users/theodoreseem/Desktop/Teddy_XML/Spline_Out/" + outputFile[:-4] + "_Dict.py"
     outputDict = open(DictName, "w")
 
+
     for counter, line in enumerate(inputFileEditable):
-        if "spline" in line:
+        if "spline" in line and replaceSpline is "YES":
             replaceLine(line, outputFileEditable, counter, outputDict)
         else:
             for char in line:
@@ -50,14 +55,18 @@ def replaceFile(inputFile, outputFile):
                 else: break;
             wordList = line.split()
             for word in wordList:
-                if VARIABLE_TO_CHANGE in word and VARIABLE_TO_AVOID not in word: #if word == VARIABLE_TO_CHANGE:
-                    outputFileEditable.write(VARIABLE_TO_INSERT)
-                    if '/>' in word:
-                        outputFileEditable.write('/>')
-                else:
+                changed = False
+                for position, variable in enumerate(VARIABLES_TO_CHANGE):
+                    if variable in word and VARIABLE_TO_AVOID not in word and changed is False:
+                        changed = True
+                        outputFileEditable.write(VARIABLES_TO_INSERT[position])
+                        if '/>' in word:
+                            outputFileEditable.write('/>')
+                if changed is False:
                     outputFileEditable.write(word)
                 outputFileEditable.write(' ')
-            outputFileEditable.write('\n')
+        outputFileEditable.write('\n')
+
 
 def simplifyName(directory):
     for afile in os.listdir(directory):
